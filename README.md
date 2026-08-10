@@ -133,25 +133,25 @@ The Power BI report contains four dashboard pages designed to provide a structur
 
 ### Dashboard Page 1 — Executive Growth Overview
 
-<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%201.png" width="70%" />
+<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%201.png" width="100%" />
 
 Provides a consolidated view of revenue growth, customer acquisition efficiency, order performance, and retention. The page is designed for monthly executive review, helping leadership assess whether growth is being driven by efficient customer acquisition and repeat purchasing.
 
 ### Dashboard Page 2 — Channel & Campaign Performance
 
-<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%202.png" width="70%" />
+<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%202.png" width="100%" />
 
 Evaluates marketing spend, revenue, ROAS, campaign profitability, and acquisition efficiency across channels and campaigns. It helps growth and performance-marketing teams identify high-performing campaigns, investigate inefficient spend, and determine where marketing budget should be increased, reduced, or reallocated.
 
 ### Dashboard Page 3 — Customer Retention & Cohorts
 
-<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%203.png" width="70%" />
+<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%203.png" width="100%" />
 
 Analyzes customer retention, repeat purchasing, and cohort behavior over time. The page helps CRM teams determine whether newly acquired customers are developing into repeat customers and identify changes in retention performance across acquisition cohorts.
 
 ### Dashboard Page 4 — Customer Segmentation & Regional Analysis
 
-<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%204.png" width="70%" />
+<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%204.png" width="100%" />
 
 Examines customer value, purchasing behavior, customer segments, and regional revenue performance. It helps identify the customer groups and geographic markets contributing the most value, supporting targeted CRM strategies and prioritization of high-value customer segments.
 
@@ -192,7 +192,7 @@ Following the data assessment, a **KPI Dictionary** was developed to establish a
 
 This ensured that the final warehouse and reporting layer were built around **validated business requirements and measurable data**, rather than assumptions.
 
-📄 **[View the KPI Dictionary →](./docs/KPI_dictionary.md)**
+📄 **[View the KPI Dictionary →]([https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/docs/kpi_dictionary.md])**
 
 ---
 
