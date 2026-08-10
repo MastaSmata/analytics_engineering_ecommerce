@@ -1,5 +1,5 @@
 # E-commerce Marketing Performance & Customer Economics Dashboard
-## Business Intelligence & Analytics Engineering Project
+## A Business Intelligence & Analytics Engineering Project
 
 ### Table of Contents
 
