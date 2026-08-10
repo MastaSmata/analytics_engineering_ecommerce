@@ -157,7 +157,7 @@ Examines customer value, purchasing behavior, customer segments, and regional re
 
 ---
 
-## 6. Scope of Work
+## 6. Stakeholder Requirement Elicitation & Scope of Work
 
 The project scope was developed through a structured **stakeholder engagement and requirements-gathering process** with the business stakeholders responsible for growth, marketing, customer performance, and commercial decision-making.
 
@@ -176,7 +176,7 @@ The agreed requirements were then consolidated into a formal **Statement of Work
 
 The SOW served as the primary reference throughout development, ensuring that the technical implementation remained aligned with the original business requirements.
 
-📄 **[View the Full Scope of Work →](./docs/scope-of-work.md)**
+📄 **[View the Full Scope of Work →](https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/docs/scope_of_work.md)**
 
 The detailed SOW provides the complete specification of the project, including the agreed deliverables, analytical scope, KPI requirements, and implementation expectations.
 
@@ -192,7 +192,7 @@ Following the data assessment, a **KPI Dictionary** was developed to establish a
 
 This ensured that the final warehouse and reporting layer were built around **validated business requirements and measurable data**, rather than assumptions.
 
-📄 **[View the KPI Dictionary →]([https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/docs/kpi_dictionary.md])**
+📄 **[View the KPI Dictionary →](https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/docs/kpi_dictionary.md)**
 
 ---
 
@@ -296,9 +296,3 @@ The semantic model is configured to refresh **daily at 6:00 AM**, after the upst
 
 This ensures that Power BI regularly consumes the latest successfully processed data from the BigQuery/dbt warehouse rather than relying on manual report refreshes.
 
-## Project Documentation
-
-Additional project documentation will be linked here as the project repository is finalized.
-
-- 📄 [Statement of Work](./docs/scope-of-work.md)
-- 📖 [KPI Dictionary](./docs/KPI_dictionary.md)
