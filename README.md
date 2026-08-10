@@ -57,10 +57,10 @@ The project transforms fragmented eCommerce data (marketing, sales, and customer
 ## 2. Featuring
 
 * Stakeholder Management
+* KPI Selection & Engineering
 * Python ETL Pipeline
 * SQL Data Warehouse
 * dbt Transformations
-* KPI Engineering
 * Power BI Dashboard
 * Automated Refreshing
 * Customer Cohort Analysis
@@ -129,31 +129,30 @@ Power BI Auto Refresh
 
 ## 5. Power BI Dashboard
 
-The Power BI report contains four dashboard pages designed to provide a structured view of eCommerce growth, customer behaviour, marketing performance, and commercial outcomes.
+The Power BI report contains four dashboard pages designed to provide a structured view of eCommerce growth, customer behaviour and marketing performance.
 
-### Dashboard Page 1 — Executive Overview
+### Dashboard Page 1 — Executive Growth Overview
 
-![Dashboard Page 1](./dashboard/screenshots/page1.png)
+<img src="https://github.com/MastaSmata/analytics_engineering_ecommerce/blob/main/dashboard/screenshots/page%201.png" width="32%" />
 
-Provides the primary executive view of the dashboard, bringing together the key business KPIs and performance indicators used to assess overall growth and commercial performance.
+Provides a consolidated view of revenue growth, customer acquisition efficiency, order performance, and retention. The page is designed for monthly executive review, helping leadership assess whether growth is being driven by efficient customer acquisition and repeat purchasing.
 
-### Dashboard Page 2 — Customer & Retention Analysis
+### Dashboard Page 2 — Channel & Campaign Performance
 
 ![Dashboard Page 2](./dashboard/screenshots/page2.png)
 
-Focuses on customer behaviour, retention, repeat purchasing, and customer-value patterns to support analysis of customer quality and long-term performance.
+Evaluates marketing spend, revenue, ROAS, campaign profitability, and acquisition efficiency across channels and campaigns. It helps growth and performance-marketing teams identify high-performing campaigns, investigate inefficient spend, and determine where marketing budget should be increased, reduced, or reallocated.
 
-### Dashboard Page 3 — Campaign Performance
-
+### Dashboard Page 3 — Customer Retention & Cohorts
 ![Dashboard Page 3](./dashboard/screenshots/page3.png)
 
-Provides a detailed view of campaign and acquisition performance, supporting comparison of marketing efficiency and identification of stronger and weaker campaign outcomes.
+Analyzes customer retention, repeat purchasing, and cohort behavior over time. The page helps CRM teams determine whether newly acquired customers are developing into repeat customers and identify changes in retention performance across acquisition cohorts.
 
-### Dashboard Page 4 — Revenue & Commercial Analysis
+### Dashboard Page 4 — Customer Segmentation & Regional Analysis
 
 ![Dashboard Page 4](./dashboard/screenshots/page4.png)
 
-Presents deeper commercial and revenue analysis to support evaluation of revenue quality, profitability-related indicators, and the factors influencing overall performance.
+Examines customer value, purchasing behavior, customer segments, and regional revenue performance. It helps identify the customer groups and geographic markets contributing the most value, supporting targeted CRM strategies and prioritization of high-value customer segments.
 
 ---
 
