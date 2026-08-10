@@ -8,7 +8,7 @@
 3. [Tech Stack](#3-tech-stack)
 4. [Data &amp; Analytics Architecture](#4-data--analytics-architecture)
 5. [Power BI Dashboard](#5-power-bi-dashboard)
-6. [Stakeholder Requirement Elicitation & Scope of Work](#6-stakeholder-requirement-elicitation-&-scope-of-work)
+6. [Stakeholder Requirement Elicitation & Scope of Work](#6-stakeholder-requirement-elicitation--scope-of-work)
 7. [Data Warehouse Check &amp; KPI Dictionary](#7-data-warehouse-check--kpi-dictionary)
 8. [ETL &amp; dbt Logic](#8-etl--dbt-logic)
 9. [Automated Pipeline &amp; Power BI Refresh](#9-automated-pipeline--power-bi-refresh)
