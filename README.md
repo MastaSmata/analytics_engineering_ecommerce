@@ -1,0 +1,303 @@
+# E-commerce Marketing Performance & Customer Economics Dashboard - Business Intelligence & Analytics Engineering
+
+### Table of Contents
+
+1. [Project Overview](#1-project-overview)
+2. [Featuring](#2-featuring)
+3. [Tech Stack](#3-tech-stack)
+4. [Data &amp; Analytics Architecture](#4-data--analytics-architecture)
+5. [Power BI Dashboard](#5-power-bi-dashboard)
+6. [Scope of Work](#6-scope-of-work)
+7. [Data Warehouse Check &amp; KPI Dictionary](#7-data-warehouse-check--kpi-dictionary)
+8. [ETL &amp; dbt Logic](#8-etl--dbt-logic)
+9. [Automated Pipeline &amp; Power BI Refresh](#9-automated-pipeline--power-bi-refresh)
+
+---
+
+## 1. Project Overview
+
+### Business Problem
+
+An **eCommerce company’s Growth and Marketing department** was scaling across multiple digital channels, including paid search, paid social, email marketing, and affiliate campaigns. However, there was no unified way to evaluate whether this growth was **profitable, efficient, and sustainable**.
+
+Marketing performance was primarily assessed using top-line revenue and platform-level metrics, which made it difficult for the Growth team to understand:
+
+- Whether customer acquisition was cost-efficient across channels
+- Whether new customers were generating long-term value or only one-time purchases
+- How discounting and promotions were impacting true profitability
+- Which marketing channels were driving high-quality vs low-quality customers
+
+As a result, the Growth and Marketing teams lacked a consolidated, data-driven view of **customer acquisition efficiency, retention behaviour, and revenue quality**.
+
+### Business Goals
+
+The project aimed to build a centralized analytics system for the **Growth and Marketing department** to enable better decision-making across acquisition and retention strategies. The system was designed to help the team:
+
+- Evaluate the efficiency of customer acquisition across marketing channels (paid search, paid social, email, affiliate).
+- Understand customer retention, repeat purchase behaviour, and cohort performance.
+- Connect acquisition sources with long-term customer value (LTV) and profitability.
+- Monitor revenue quality, including the impact of discounts and promotions.
+- Provide a consistent, single source of truth for marketing and growth performance.
+
+### Business Questions
+
+The solution was designed to help the Growth and Marketing team answer three core questions:
+
+1. **Are we acquiring customers profitably across each marketing channel?**
+2. **Do acquired customers return and generate sustainable long-term value?**
+3. **Is revenue growth driven by efficient acquisition, or inflated by discounts and low-quality traffic?**
+
+### Project Outcome
+
+The project transforms fragmented eCommerce data (marketing, sales, and customer data) into a **centralized analytics and Power BI reporting system** for the Growth and Marketing department. This enables the team to clearly understand acquisition efficiency, customer quality, and revenue sustainability, and make more informed decisions on marketing investment and strategy.
+
+---
+
+## 2. Featuring
+
+* Stakeholder Management
+* Python ETL Pipeline
+* SQL Data Warehouse
+* dbt Transformations
+* KPI Engineering
+* Power BI Dashboard
+* Automated Refreshing
+* Customer Cohort Analysis
+* Campaign Performance Analysis
+* Customer Segmentation
+
+---
+
+## 3. Tech Stack
+
+* Python
+* SQL
+* dbt
+* Google BigQuery
+* Power BI
+* GitHub Actions
+
+---
+
+## 4. Data & Analytics Architecture
+
+### Data Pipeline
+
+```text
+Source Data
+(Aiven PostgreSQL Database)
+
+    ↓
+Python ETL
+
+    ↓
+BigQuery Raw Tables
+
+    ↓
+dbt Transformation Layer
+
+    ↓
+Fact Tables
+
+    ↓
+Aggregate Tables
+
+    ↓
+Power BI Semantic Model
+
+    ↓
+DAX Measures
+
+    ↓
+Dashboard
+```
+
+### Automation Layer
+
+```text
+GitHub Actions
+        ↓
+Automated Pipeline Execution
+        ↓
+BigQuery Data Refresh
+        ↓
+Power BI Auto Refresh
+```
+
+---
+
+## 5. Power BI Dashboard
+
+The Power BI report contains four dashboard pages designed to provide a structured view of eCommerce growth, customer behaviour, marketing performance, and commercial outcomes.
+
+### Dashboard Page 1 — Executive Overview
+
+![Dashboard Page 1](./dashboard/screenshots/page1.png)
+
+Provides the primary executive view of the dashboard, bringing together the key business KPIs and performance indicators used to assess overall growth and commercial performance.
+
+### Dashboard Page 2 — Customer & Retention Analysis
+
+![Dashboard Page 2](./dashboard/screenshots/page2.png)
+
+Focuses on customer behaviour, retention, repeat purchasing, and customer-value patterns to support analysis of customer quality and long-term performance.
+
+### Dashboard Page 3 — Campaign Performance
+
+![Dashboard Page 3](./dashboard/screenshots/page3.png)
+
+Provides a detailed view of campaign and acquisition performance, supporting comparison of marketing efficiency and identification of stronger and weaker campaign outcomes.
+
+### Dashboard Page 4 — Revenue & Commercial Analysis
+
+![Dashboard Page 4](./dashboard/screenshots/page4.png)
+
+Presents deeper commercial and revenue analysis to support evaluation of revenue quality, profitability-related indicators, and the factors influencing overall performance.
+
+---
+
+## 6. Scope of Work
+
+The project scope was developed through a structured **stakeholder engagement and requirements-gathering process** with the business stakeholders responsible for growth, marketing, customer performance, and commercial decision-making.
+
+Stakeholder discussions were used to understand the business objectives, identify the key performance challenges, define the decisions the dashboard needed to support, and translate those requirements into measurable KPIs and analytical outputs.
+
+The agreed requirements were then consolidated into a formal **Statement of Work (SOW)**, which defined the project's:
+
+- Business objectives
+- Analytical requirements
+- KPI requirements
+- Data requirements
+- Dashboard and reporting requirements
+- Technical deliverables
+- Automation and refresh requirements
+- Project scope and boundaries
+
+The SOW served as the primary reference throughout development, ensuring that the technical implementation remained aligned with the original business requirements.
+
+📄 **[View the Full Scope of Work →](./docs/scope-of-work.md)**
+
+The detailed SOW provides the complete specification of the project, including the agreed deliverables, analytical scope, KPI requirements, and implementation expectations.
+
+---
+
+## 7. Data Warehouse Check & KPI Dictionary
+
+Before development began, the available datasets were assessed against the **data and KPI requirements established during the stakeholder discovery and SOW phases**.
+
+The assessment focused on whether the available source tables contained the required fields, relationships, dates, and business attributes needed to calculate the proposed KPIs reliably. Where a KPI could not be supported by the available data, it was identified and removed from scope rather than being estimated or artificially derived.
+
+Following the data assessment, a **KPI Dictionary** was developed to establish a consistent definition for every approved KPI. Each KPI was mapped to its business purpose, required data elements, calculation logic, and analytical source, providing a single reference point for subsequent SQL, dbt, and Power BI development.
+
+This ensured that the final warehouse and reporting layer were built around **validated business requirements and measurable data**, rather than assumptions.
+
+📄 **[View the KPI Dictionary →](./docs/KPI_dictionary.md)**
+
+---
+
+## 8. ETL & dbt Logic
+
+### 1. ETL Principles
+
+The ETL pipeline extracts and prepares data from the **Aiven PostgreSQL database** using consistent data engineering principles:
+
+- 🔌 **ETL Process** — Connect to the source database to extract operational data, clean and validate it, apply necessary transformations, and load it into the SQL warehouse while preserving structure and relationships.
+- 🧭 **Incremental Loading (Watermarking)** — Introduced watermarking to support efficient incremental data loads by tracking the latest processed timestamp or key value, ensuring only new or updated records are extracted and processed in subsequent ETL runs.
+
+### 2. dbt Transformation & KPI Logic
+
+dbt is used to transform the warehouse data into **analytical marts and aggregate tables**, with a deliberate separation between **SQL-engineered metrics** and **Power BI/DAX metrics**.
+
+- **Fact Layer** — Create grain-preserving, denormalized business models such as `mart_sales`, `mart_customer`, `mart_marketing`, `mart_inventory`, and `mart_returns`.
+- **Aggregate Layer** — Pre-calculate reusable business metrics at appropriate grains, such as daily, monthly, campaign, cohort, product, and customer-segment levels.
+- **SQL Metrics** — Metrics that form part of the warehouse's analytical layer are calculated in dbt, including revenue, gross margin, CAC, ROAS, retention inputs, conversion rate, inventory turnover, and refund rate.
+- **DAX Metrics** — Power BI is reserved for measures that require interactive filter context, aggregation across the prepared tables, or presentation-layer calculations.
+
+**Principle:** SQL/dbt handles **data preparation and reusable business logic**, while DAX handles **Power BI semantic-layer calculations and interactive analysis**.
+
+---
+
+## 9. Automated Pipeline & Power BI Refresh
+
+The project includes an automated CI/CD pipeline using **GitHub Actions** to move the analytics workflow from manual execution to a scheduled, production-style process.
+
+### Automation Architecture
+
+```text
+GitHub Actions
+      │
+      ▼
+OIDC Authentication
+      │
+      ▼
+Google Cloud Workload Identity Federation
+      │
+      ▼
+Service Account
+      │
+      ▼
+Python ETL
+      │
+      ▼
+BigQuery
+      │
+      ▼
+dbt Transformations
+      │
+      ▼
+Power BI Semantic Model Refresh (Daily Refresh — 6:00 AM)
+```
+
+---
+
+### GitHub Actions
+
+The workflow automates the complete analytics pipeline:
+
+1. Checks out the repository.
+2. Authenticates to Google Cloud using **Workload Identity Federation (OIDC)**.
+3. Sets up Python and installs project dependencies.
+4. Executes the Python ETL pipeline.
+5. Loads and updates warehouse data in **BigQuery**.
+6. Installs and executes **dbt**.
+7. Runs `dbt deps`, `dbt run`, and `dbt test`.
+8. Executes the Power BI refresh script.
+9. Reports successful pipeline completion.
+
+The workflow uses **GitHub repository secrets** for external credentials and configuration values.
+
+No `.env` files or Google service-account JSON keys are committed to the repository.
+
+---
+
+### Google Cloud Authentication
+
+Authentication between GitHub Actions and Google Cloud is implemented using **Workload Identity Federation** rather than long-lived service-account keys.
+
+GitHub Actions authenticates using GitHub's **OIDC identity token**, which Google Cloud validates before allowing the workflow to impersonate the designated service account.
+
+This provides:
+
+- **Keyless authentication**
+- **Short-lived credentials**
+- **Repository-level access restrictions**
+- **No service-account JSON keys stored in GitHub**
+
+This approach reduces credential-management risk while maintaining controlled access to Google Cloud resources.
+
+---
+
+### Power BI Automated Refresh
+
+The final stage of the analytics pipeline is handled by **Power BI Service’s built-in scheduled refresh**.
+
+The semantic model is configured to refresh **daily at 6:00 AM**, after the upstream data pipeline has completed:
+
+This ensures that Power BI regularly consumes the latest successfully processed data from the BigQuery/dbt warehouse rather than relying on manual report refreshes.
+
+## Project Documentation
+
+Additional project documentation will be linked here as the project repository is finalized.
+
+- 📄 [Statement of Work](./docs/scope-of-work.md)
+- 📖 [KPI Dictionary](./docs/KPI_dictionary.md)

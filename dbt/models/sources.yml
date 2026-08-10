@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    database: project-004c9430-f8fa-4b9a-861      # BigQuery project
+    schema:  ecommerce_data             # BigQuery dataset
+
+    tables:
+      - name: raw_campaigns
+      - name: raw_customers
+      - name: raw_products
+      - name: raw_sales
+      - name: raw_inventory
+      - name: raw_returns
+      - name: raw_channels
+      - name: raw_marketing

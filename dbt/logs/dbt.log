@@ -1,0 +1,2577 @@
+[0m17:21:34.316590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A50F5AF0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5120A7D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5120A79D0>]}
+
+
+============================== 17:21:34.323706 | 3d1b5222-5494-4cfa-87bf-7a8f078e5681 ==============================
+[0m17:21:34.323706 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:21:34.325064 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\User\\OneDrive\\Documents\\Portfolio Projects\\GitHub\\operations_dashboard\\dbt\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:21:34.687243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3d1b5222-5494-4cfa-87bf-7a8f078e5681', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A511D4A8B0>]}
+[0m17:21:34.691989 [debug] [MainThread]: Set downloads directory='C:\Users\User\AppData\Local\Temp\dbt-downloads-2zfxbhha'
+[0m17:21:34.693094 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m17:21:35.730521 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m17:21:35.735715 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m17:21:36.538913 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m17:21:36.553001 [info ] [MainThread]: Updating lock file in file path: C:\Users\User\OneDrive\Documents\Portfolio Projects\GitHub\operations_dashboard\dbt/package-lock.yml
+[0m17:21:36.844443 [debug] [MainThread]: Set downloads directory='C:\Users\User\AppData\Local\Temp\dbt-downloads-xj739cid'
+[0m17:21:36.854586 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m17:21:42.180976 [info ] [MainThread]: Installed from version 1.1.1
+[0m17:21:42.182234 [info ] [MainThread]: Updated version available: 1.4.1
+[0m17:21:42.184354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '3d1b5222-5494-4cfa-87bf-7a8f078e5681', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A511DB1BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A511DB1D00>]}
+[0m17:21:42.185586 [info ] [MainThread]: 
+[0m17:21:42.186682 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m17:21:42.190459 [debug] [MainThread]: Command `dbt deps` succeeded at 17:21:42.190045 after 8.05 seconds
+[0m17:21:42.191644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A511DB9750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A511D43C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5121A4230>]}
+[0m17:21:42.192712 [debug] [MainThread]: Flushing usage events
+[0m17:22:25.637642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C774AF0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C79DA7D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C79DA79D0>]}
+
+
+============================== 17:22:25.646852 | af3336a3-c11f-4cbc-91e9-4ed686ff279c ==============================
+[0m17:22:25.646852 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:22:25.648294 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\User\\OneDrive\\Documents\\Portfolio Projects\\GitHub\\operations_dashboard\\dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m17:22:25.972253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'af3336a3-c11f-4cbc-91e9-4ed686ff279c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C79C4A8B0>]}
+[0m17:22:25.979498 [debug] [MainThread]: Set downloads directory='C:\Users\User\AppData\Local\Temp\dbt-downloads-7e2bc464'
+[0m17:22:25.980822 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m17:22:28.443566 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m17:22:28.446877 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m17:22:29.425309 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m17:22:29.450189 [info ] [MainThread]: Updating lock file in file path: C:\Users\User\OneDrive\Documents\Portfolio Projects\GitHub\operations_dashboard\dbt/package-lock.yml
+[0m17:22:29.614338 [debug] [MainThread]: Set downloads directory='C:\Users\User\AppData\Local\Temp\dbt-downloads-o5f47hhc'
+[0m17:22:29.629307 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m17:22:32.619033 [info ] [MainThread]: Installed from version 1.4.1
+[0m17:22:32.638700 [info ] [MainThread]: Up to date!
+[0m17:22:32.699485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'af3336a3-c11f-4cbc-91e9-4ed686ff279c', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C79CADBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C79CADD00>]}
+[0m17:22:32.708001 [debug] [MainThread]: Command `dbt deps` succeeded at 17:22:32.707586 after 7.24 seconds
+[0m17:22:32.709210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C79CBDE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C79C43C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C7A0A4230>]}
+[0m17:22:32.710789 [debug] [MainThread]: Flushing usage events
+[0m17:29:37.220641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183567B30E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183592A7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183592A7B10>]}
+
+
+============================== 17:29:37.232374 | b32c7544-924c-4514-a654-cb8120440cc7 ==============================
+[0m17:29:37.232374 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:29:37.233682 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\User\\OneDrive\\Documents\\Portfolio Projects\\GitHub\\operations_dashboard\\dbt\\logs', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:30:02.431775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b32c7544-924c-4514-a654-cb8120440cc7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018362F70770>]}
+[0m17:30:02.580567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b32c7544-924c-4514-a654-cb8120440cc7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018362304380>]}
+[0m17:30:02.601983 [info ] [MainThread]: Registered adapter: bigquery=1.7.9
+[0m17:30:02.700186 [debug] [MainThread]: checksum: a8d43cdff37d0f32d7fbe4c5c25bea4bb6c86e162f8ce8fdb1a38cdcf7495431, vars: {}, profile: , target: , version: 1.7.19
+[0m17:30:02.703054 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:30:02.705425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b32c7544-924c-4514-a654-cb8120440cc7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018362F2DB50>]}
+[0m17:30:11.321590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b32c7544-924c-4514-a654-cb8120440cc7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183633706E0>]}
+[0m17:30:11.407617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b32c7544-924c-4514-a654-cb8120440cc7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001836377E890>]}
+[0m17:30:11.408837 [info ] [MainThread]: Found 19 models, 8 sources, 0 exposures, 0 metrics, 570 macros, 0 groups, 0 semantic models
+[0m17:30:11.411127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b32c7544-924c-4514-a654-cb8120440cc7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183636236C0>]}
+[0m17:30:11.417002 [info ] [MainThread]: 
+[0m17:30:11.420583 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:30:11.422888 [debug] [MainThread]: Command end result
+[0m17:30:11.473517 [debug] [MainThread]: Command `dbt test` succeeded at 17:30:11.473102 after 34.56 seconds
+[0m17:30:11.474527 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183592EC290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001836331A780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001836331A360>]}
+[0m17:30:11.477841 [debug] [MainThread]: Flushing usage events
+[0m17:30:30.346256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8029B70E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8055A7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8055A7B10>]}
+
+
+============================== 17:30:30.355946 | b95cf1bc-afb7-4bd1-a882-682477aa8bda ==============================
+[0m17:30:30.355946 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:30:30.357659 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\User\\OneDrive\\Documents\\Portfolio Projects\\GitHub\\operations_dashboard\\dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:30:33.409480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F170770>]}
+[0m17:30:33.576115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80E504380>]}
+[0m17:30:33.578179 [info ] [MainThread]: Registered adapter: bigquery=1.7.9
+[0m17:30:33.630042 [debug] [MainThread]: checksum: a8d43cdff37d0f32d7fbe4c5c25bea4bb6c86e162f8ce8fdb1a38cdcf7495431, vars: {}, profile: , target: , version: 1.7.19
+[0m17:30:34.025545 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:30:34.026646 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:30:34.047546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F12BD50>]}
+[0m17:30:34.082098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F16DF40>]}
+[0m17:30:34.083284 [info ] [MainThread]: Found 19 models, 8 sources, 0 exposures, 0 metrics, 570 macros, 0 groups, 0 semantic models
+[0m17:30:34.091070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F5E2F90>]}
+[0m17:30:34.097515 [info ] [MainThread]: 
+[0m17:30:34.118613 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m17:30:34.147008 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_project-004c9430-f8fa-4b9a-861'
+[0m17:30:34.148253 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:30:48.129212 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_project-004c9430-f8fa-4b9a-861_ecommerce_data'
+[0m17:30:48.130302 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:30:50.044922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F8FAF70>]}
+[0m17:30:50.046942 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:30:50.061693 [info ] [MainThread]: 
+[0m17:30:50.158751 [debug] [Thread-1 (]: Began running node model.operations_dashboard.dim_date
+[0m17:30:50.159948 [debug] [Thread-2 (]: Began running node model.operations_dashboard.stg_campaigns
+[0m17:30:50.161151 [debug] [Thread-3 (]: Began running node model.operations_dashboard.stg_channels
+[0m17:30:50.162367 [debug] [Thread-4 (]: Began running node model.operations_dashboard.stg_customers
+[0m17:30:50.163886 [info ] [Thread-1 (]: 1 of 19 START sql table model ecommerce_data.dim_date .......................... [RUN]
+[0m17:30:50.169897 [debug] [Thread-1 (]: Acquiring new bigquery connection 'model.operations_dashboard.dim_date'
+[0m17:30:50.171048 [debug] [Thread-1 (]: Began compiling node model.operations_dashboard.dim_date
+[0m17:30:50.194040 [debug] [Thread-1 (]: Writing injected SQL for node "model.operations_dashboard.dim_date"
+[0m17:30:50.165055 [info ] [Thread-2 (]: 2 of 19 START sql view model ecommerce_data.stg_campaigns ...................... [RUN]
+[0m17:30:50.196884 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.operations_dashboard.stg_campaigns'
+[0m17:30:50.198119 [debug] [Thread-2 (]: Began compiling node model.operations_dashboard.stg_campaigns
+[0m17:30:50.209937 [debug] [Thread-2 (]: Writing injected SQL for node "model.operations_dashboard.stg_campaigns"
+[0m17:30:50.216303 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.dim_date (compile): 17:30:50.171706 => 17:30:50.215551
+[0m17:30:50.217718 [debug] [Thread-1 (]: Began executing node model.operations_dashboard.dim_date
+[0m17:30:50.233624 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.stg_campaigns (compile): 17:30:50.199482 => 17:30:50.232699
+[0m17:30:50.262526 [debug] [Thread-2 (]: Began executing node model.operations_dashboard.stg_campaigns
+[0m17:30:50.166338 [info ] [Thread-3 (]: 3 of 19 START sql view model ecommerce_data.stg_channels ....................... [RUN]
+[0m17:30:50.327016 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m17:30:50.347140 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.operations_dashboard.stg_channels'
+[0m17:30:50.167523 [info ] [Thread-4 (]: 4 of 19 START sql view model ecommerce_data.stg_customers ...................... [RUN]
+[0m17:30:50.395860 [debug] [Thread-3 (]: Began compiling node model.operations_dashboard.stg_channels
+[0m17:30:50.419287 [debug] [Thread-3 (]: Writing injected SQL for node "model.operations_dashboard.stg_channels"
+[0m17:30:50.422737 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.stg_channels (compile): 17:30:50.409437 => 17:30:50.421417
+[0m17:30:50.405400 [debug] [Thread-2 (]: Writing runtime sql for node "model.operations_dashboard.stg_campaigns"
+[0m17:30:50.424125 [debug] [Thread-3 (]: Began executing node model.operations_dashboard.stg_channels
+[0m17:30:50.408118 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.operations_dashboard.stg_customers'
+[0m17:30:50.442375 [debug] [Thread-3 (]: Writing runtime sql for node "model.operations_dashboard.stg_channels"
+[0m17:30:50.443696 [debug] [Thread-4 (]: Began compiling node model.operations_dashboard.stg_customers
+[0m17:30:50.451956 [debug] [Thread-4 (]: Writing injected SQL for node "model.operations_dashboard.stg_customers"
+[0m17:30:50.456682 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m17:30:50.458114 [debug] [Thread-3 (]: On model.operations_dashboard.stg_channels: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.stg_channels"} */
+
+
+  create or replace view `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_channels`
+  OPTIONS()
+  as SELECT
+    LOWER(TRIM(channel_name)) AS channel_name,
+    LOWER(TRIM(channel_category)) AS channel_category,
+    LOWER(TRIM(traffic_type)) AS traffic_type
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`raw_channels`;
+
+
+[0m17:30:50.460574 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.stg_customers (compile): 17:30:50.444976 => 17:30:50.459832
+[0m17:30:50.461784 [debug] [Thread-4 (]: Began executing node model.operations_dashboard.stg_customers
+[0m17:30:50.463700 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m17:30:50.473702 [debug] [Thread-4 (]: Writing runtime sql for node "model.operations_dashboard.stg_customers"
+[0m17:30:50.476363 [debug] [Thread-2 (]: On model.operations_dashboard.stg_campaigns: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.stg_campaigns"} */
+
+
+  create or replace view `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_campaigns`
+  OPTIONS()
+  as SELECT
+    TRIM(campaign_id) AS campaign_id,
+    LOWER(TRIM(campaign_type)) AS campaign_type,
+    LOWER(TRIM(campaign_objective)) AS campaign_objective,
+    LOWER(TRIM(channel)) AS channel,
+    SAFE_CAST(start_date AS DATE) AS start_date,
+    SAFE_CAST(end_date AS DATE) AS end_date,
+    SAFE_CAST(total_revenue AS NUMERIC) AS total_revenue,
+    LOWER(TRIM(campaign_name)) AS campaign_name,
+    SAFE_CAST(budget AS NUMERIC) AS budget
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`raw_campaigns`;
+
+
+[0m17:30:50.482418 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m17:30:50.483805 [debug] [Thread-4 (]: On model.operations_dashboard.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.stg_customers"} */
+
+
+  create or replace view `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_customers`
+  OPTIONS()
+  as SELECT
+    TRIM(customer_id) AS customer_id,
+    LOWER(TRIM(gender)) AS gender,
+    SAFE_CAST(age AS INT64) AS age,
+    LOWER(TRIM(country)) AS country,
+    LOWER(TRIM(region)) AS region,
+    LOWER(TRIM(city)) AS city,
+    SAFE_CAST(acquisition_date AS DATE) AS acquisition_date,
+    LOWER(TRIM(acquisition_channel)) AS acquisition_channel,
+    TRIM(acquisition_campaign) AS acquisition_campaign
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`raw_customers`;
+
+
+[0m17:30:53.672818 [debug] [Thread-1 (]: Writing runtime sql for node "model.operations_dashboard.dim_date"
+[0m17:30:53.676977 [debug] [Thread-1 (]: On model.operations_dashboard.dim_date: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.dim_date"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_date`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+WITH date_series AS (
+
+    SELECT
+        calendar_date AS date_key
+
+    FROM UNNEST(
+
+        GENERATE_DATE_ARRAY(
+
+            DATE('2020-01-01'),
+            DATE('2035-12-31'),
+            INTERVAL 1 DAY
+
+        )
+
+    ) AS calendar_date
+
+)
+
+SELECT
+
+    --------------------------------------------------
+    -- PRIMARY KEY
+    --------------------------------------------------
+
+    date_key,
+
+    FORMAT_DATE('%Y%m%d', date_key)
+        AS date_id,
+
+    --------------------------------------------------
+    -- DAY
+    --------------------------------------------------
+
+    EXTRACT(DAY FROM date_key)
+        AS day_of_month,
+
+    EXTRACT(DAYOFWEEK FROM date_key)
+        AS day_of_week,
+
+    FORMAT_DATE('%A', date_key)
+        AS day_name,
+
+    FORMAT_DATE('%a', date_key)
+        AS day_name_short,
+
+    EXTRACT(DAYOFYEAR FROM date_key)
+        AS day_of_year,
+
+    --------------------------------------------------
+    -- WEEK
+    --------------------------------------------------
+
+    EXTRACT(ISOWEEK FROM date_key)
+        AS week_of_year,
+
+    DATE_TRUNC(
+        date_key,
+        WEEK(MONDAY)
+    ) AS week_start_date,
+
+    DATE_ADD(
+
+        DATE_TRUNC(
+            date_key,
+            WEEK(MONDAY)
+        ),
+
+        INTERVAL 6 DAY
+
+    ) AS week_end_date,
+
+    CONCAT(
+
+        CAST(EXTRACT(YEAR FROM date_key) AS STRING),
+
+        '-W',
+
+        LPAD(
+            CAST(EXTRACT(ISOWEEK FROM date_key) AS STRING),
+            2,
+            '0'
+        )
+
+    ) AS year_week,
+
+    --------------------------------------------------
+    -- MONTH
+    --------------------------------------------------
+
+    EXTRACT(MONTH FROM date_key)
+        AS month_number,
+
+    FORMAT_DATE('%B', date_key)
+        AS month_name,
+
+    FORMAT_DATE('%b', date_key)
+        AS month_name_short,
+
+    DATE_TRUNC(
+        date_key,
+        MONTH
+    ) AS month_start_date,
+
+    LAST_DAY(
+        date_key,
+        MONTH
+    ) AS month_end_date,
+
+    FORMAT_DATE('%Y-%m', date_key)
+        AS year_month_key,
+
+    FORMAT_DATE('%b %Y', date_key)
+        AS year_month,
+
+    --------------------------------------------------
+    -- QUARTER
+    --------------------------------------------------
+
+    EXTRACT(QUARTER FROM date_key)
+        AS quarter_number,
+
+    CONCAT(
+
+        'Q',
+
+        CAST(
+            EXTRACT(QUARTER FROM date_key)
+            AS STRING
+        )
+
+    ) AS quarter_name,
+
+    DATE_TRUNC(
+        date_key,
+        QUARTER
+    ) AS quarter_start_date,
+
+    LAST_DAY(
+        DATE_TRUNC(
+            date_key,
+            QUARTER
+        ),
+        QUARTER
+    ) AS quarter_end_date,
+
+    CONCAT(
+
+        CAST(EXTRACT(YEAR FROM date_key) AS STRING),
+
+        ' Q',
+
+        CAST(EXTRACT(QUARTER FROM date_key) AS STRING)
+
+    ) AS year_quarter,
+
+    --------------------------------------------------
+    -- YEAR
+    --------------------------------------------------
+
+    EXTRACT(YEAR FROM date_key)
+        AS year_value,
+
+    DATE_TRUNC(
+        date_key,
+        YEAR
+    ) AS year_start_date,
+
+    LAST_DAY(
+        date_key,
+        YEAR
+    ) AS year_end_date,
+
+    --------------------------------------------------
+    -- FLAGS
+    --------------------------------------------------
+
+    EXTRACT(DAYOFWEEK FROM date_key)
+        IN (1,7)
+
+        AS is_weekend,
+
+    date_key = CURRENT_DATE()
+
+        AS is_today,
+
+    date_key = DATE_SUB(
+        CURRENT_DATE(),
+        INTERVAL 1 DAY
+    )
+
+        AS is_yesterday,
+
+    --------------------------------------------------
+    -- POWER BI SORT COLUMNS
+    --------------------------------------------------
+
+    EXTRACT(MONTH FROM date_key)
+        AS month_sort,
+
+    EXTRACT(QUARTER FROM date_key)
+        AS quarter_sort,
+
+    EXTRACT(YEAR FROM date_key) * 100
+        + EXTRACT(MONTH FROM date_key)
+
+        AS year_month_sort,
+
+    EXTRACT(YEAR FROM date_key) * 10
+        + EXTRACT(QUARTER FROM date_key)
+
+        AS year_quarter_sort,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+
+        AS loaded_at
+
+FROM date_series
+    );
+  
+[0m17:30:54.466011 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:7a4d91ab-bb13-4cec-879a-b30cbae95bbf&page=queryresults
+[0m17:30:54.537968 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:33e9145d-dc84-42ab-bcb8-be2bc23f8418&page=queryresults
+[0m17:30:54.623774 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:bfe93ccc-5680-416a-b20a-1ba6b59f7ee9&page=queryresults
+[0m17:30:54.718860 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:3674cb62-1eeb-4206-86db-9e4bc8049976&page=queryresults
+[0m17:30:55.926897 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.stg_customers (execute): 17:30:50.464816 => 17:30:55.925480
+[0m17:30:55.930055 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F82FB90>]}
+[0m17:30:55.931790 [info ] [Thread-4 (]: 4 of 19 OK created sql view model ecommerce_data.stg_customers ................. [[32mCREATE VIEW (0 processed)[0m in 5.52s]
+[0m17:30:55.947121 [debug] [Thread-4 (]: Finished running node model.operations_dashboard.stg_customers
+[0m17:30:55.949030 [debug] [Thread-4 (]: Began running node model.operations_dashboard.stg_marketing
+[0m17:30:55.952559 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.stg_campaigns (execute): 17:30:50.315206 => 17:30:55.943413
+[0m17:30:55.960800 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E804859FF0>]}
+[0m17:30:56.006749 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.stg_channels (execute): 17:30:50.432227 => 17:30:56.005113
+[0m17:30:56.010675 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F981450>]}
+[0m17:30:55.950505 [info ] [Thread-4 (]: 5 of 19 START sql view model ecommerce_data.stg_marketing ...................... [RUN]
+[0m17:30:56.015138 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.stg_customers, now model.operations_dashboard.stg_marketing)
+[0m17:30:56.016280 [debug] [Thread-4 (]: Began compiling node model.operations_dashboard.stg_marketing
+[0m17:30:55.968192 [info ] [Thread-2 (]: 2 of 19 OK created sql view model ecommerce_data.stg_campaigns ................. [[32mCREATE VIEW (0 processed)[0m in 5.76s]
+[0m17:30:56.032176 [debug] [Thread-4 (]: Writing injected SQL for node "model.operations_dashboard.stg_marketing"
+[0m17:30:56.049968 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.stg_marketing (compile): 17:30:56.019029 => 17:30:56.048483
+[0m17:30:56.036913 [debug] [Thread-2 (]: Finished running node model.operations_dashboard.stg_campaigns
+[0m17:30:56.051877 [debug] [Thread-4 (]: Began executing node model.operations_dashboard.stg_marketing
+[0m17:30:56.054014 [debug] [Thread-2 (]: Began running node model.operations_dashboard.stg_products
+[0m17:30:56.069393 [debug] [Thread-4 (]: Writing runtime sql for node "model.operations_dashboard.stg_marketing"
+[0m17:30:56.077939 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m17:30:56.084700 [debug] [Thread-4 (]: On model.operations_dashboard.stg_marketing: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.stg_marketing"} */
+
+
+  create or replace view `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_marketing`
+  OPTIONS()
+  as SELECT
+    TRIM(ads_id) AS ads_id,
+    TRIM(campaign_id) AS campaign_id,
+
+    LOWER(TRIM(channel_name)) AS channel_name,
+    LOWER(TRIM(campaign_objective)) AS campaign_objective,
+
+    SAFE_CAST(date AS DATE) AS date,
+
+    SAFE_CAST(ad_spend AS NUMERIC) AS ad_spend,
+    SAFE_CAST(impressions AS INT64) AS impressions,
+    SAFE_CAST(clicks AS INT64) AS clicks,
+    SAFE_CAST(conversions AS INT64) AS conversions,
+
+    LOWER(TRIM(campaign_type)) AS campaign_type
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`raw_marketing`;
+
+
+[0m17:30:56.012989 [info ] [Thread-3 (]: 3 of 19 OK created sql view model ecommerce_data.stg_channels .................. [[32mCREATE VIEW (0 processed)[0m in 5.66s]
+[0m17:30:56.104759 [debug] [Thread-3 (]: Finished running node model.operations_dashboard.stg_channels
+[0m17:30:56.106426 [debug] [Thread-3 (]: Began running node model.operations_dashboard.stg_sales
+[0m17:30:56.071196 [info ] [Thread-2 (]: 6 of 19 START sql view model ecommerce_data.stg_products ....................... [RUN]
+[0m17:30:56.112236 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.stg_campaigns, now model.operations_dashboard.stg_products)
+[0m17:30:56.113528 [debug] [Thread-2 (]: Began compiling node model.operations_dashboard.stg_products
+[0m17:30:56.130083 [debug] [Thread-2 (]: Writing injected SQL for node "model.operations_dashboard.stg_products"
+[0m17:30:56.132810 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.stg_products (compile): 17:30:56.115002 => 17:30:56.131936
+[0m17:30:56.134114 [debug] [Thread-2 (]: Began executing node model.operations_dashboard.stg_products
+[0m17:30:56.155741 [debug] [Thread-2 (]: Writing runtime sql for node "model.operations_dashboard.stg_products"
+[0m17:30:56.108131 [info ] [Thread-3 (]: 7 of 19 START sql view model ecommerce_data.stg_sales .......................... [RUN]
+[0m17:30:56.158120 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.stg_channels, now model.operations_dashboard.stg_sales)
+[0m17:30:56.159241 [debug] [Thread-3 (]: Began compiling node model.operations_dashboard.stg_sales
+[0m17:30:56.161103 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m17:30:56.180359 [debug] [Thread-2 (]: On model.operations_dashboard.stg_products: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.stg_products"} */
+
+
+  create or replace view `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_products`
+  OPTIONS()
+  as SELECT
+    TRIM(product_id) AS product_id,
+    LOWER(TRIM(product_name)) AS product_name,
+    SAFE_CAST(price AS NUMERIC) AS price,
+    LOWER(TRIM(sub_category)) AS sub_category,
+    LOWER(TRIM(category)) AS category,
+    LOWER(TRIM(brand)) AS brand,
+    TRIM(supplier_id) AS supplier_id,
+    SAFE_CAST(unit_cost AS NUMERIC) AS unit_cost
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`raw_products`;
+
+
+[0m17:30:56.193567 [debug] [Thread-3 (]: Writing injected SQL for node "model.operations_dashboard.stg_sales"
+[0m17:30:56.196887 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.stg_sales (compile): 17:30:56.161853 => 17:30:56.196222
+[0m17:30:56.197998 [debug] [Thread-3 (]: Began executing node model.operations_dashboard.stg_sales
+[0m17:30:56.214914 [debug] [Thread-3 (]: Writing runtime sql for node "model.operations_dashboard.stg_sales"
+[0m17:30:56.217296 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m17:30:56.219312 [debug] [Thread-3 (]: On model.operations_dashboard.stg_sales: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.stg_sales"} */
+
+
+  create or replace view `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_sales`
+  OPTIONS()
+  as SELECT
+    TRIM(order_id) AS order_id,
+    TRIM(customer_id) AS customer_id,
+
+    LOWER(TRIM(customer_status)) AS customer_status,
+
+    TRIM(product_id) AS product_id,
+    LOWER(TRIM(product_name)) AS product_name,
+    LOWER(TRIM(category)) AS category,
+
+    LOWER(TRIM(ship_mode)) AS ship_mode,
+
+    SAFE_CAST(quantity AS INT64) AS quantity,
+    SAFE_CAST(discount AS NUMERIC) AS discount,
+    SAFE_CAST(unit_cost AS NUMERIC) AS unit_cost,
+    SAFE_CAST(price AS NUMERIC) AS price,
+    SAFE_CAST(revenue AS NUMERIC) AS revenue,
+
+    LOWER(TRIM(refund_status)) AS refund_status,
+
+    SAFE_CAST(order_date AS DATE) AS order_date,
+
+    LOWER(TRIM(channel)) AS channel,
+
+    TRIM(campaign_id) AS campaign_id
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`raw_sales`;
+
+
+[0m17:30:57.277789 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.dim_date (execute): 17:30:50.218463 => 17:30:57.277052
+[0m17:30:57.279551 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F8408D0>]}
+[0m17:30:57.280889 [info ] [Thread-1 (]: 1 of 19 OK created sql table model ecommerce_data.dim_date ..................... [[32mCREATE TABLE (5.8k rows, 0 processed)[0m in 7.11s]
+[0m17:30:57.315682 [debug] [Thread-1 (]: Finished running node model.operations_dashboard.dim_date
+[0m17:30:57.317115 [debug] [Thread-1 (]: Began running node model.operations_dashboard.dim_channels
+[0m17:30:57.318684 [info ] [Thread-1 (]: 8 of 19 START sql table model ecommerce_data.dim_channels ...................... [RUN]
+[0m17:30:57.423876 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.dim_date, now model.operations_dashboard.dim_channels)
+[0m17:30:57.426081 [debug] [Thread-1 (]: Began compiling node model.operations_dashboard.dim_channels
+[0m17:30:57.596438 [debug] [Thread-1 (]: Writing injected SQL for node "model.operations_dashboard.dim_channels"
+[0m17:30:57.736383 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.dim_channels (compile): 17:30:57.427453 => 17:30:57.724640
+[0m17:30:57.737627 [debug] [Thread-1 (]: Began executing node model.operations_dashboard.dim_channels
+[0m17:30:57.750343 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:31:00.413901 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:55447ce0-da7f-4426-aa9b-6e0b50ddd823&page=queryresults
+[0m17:31:00.724458 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:a883216f-3d29-425e-8064-788044d606e9&page=queryresults
+[0m17:31:00.907763 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:e57ae4db-58eb-462a-b805-b251176c254f&page=queryresults
+[0m17:31:01.317702 [debug] [Thread-1 (]: Writing runtime sql for node "model.operations_dashboard.dim_channels"
+[0m17:31:01.320103 [debug] [Thread-1 (]: On model.operations_dashboard.dim_channels: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.dim_channels"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      SELECT
+    to_hex(md5(cast(coalesce(cast(channel_name as string), '_dbt_utils_surrogate_key_null_') as string))) AS channel_key,
+
+    LOWER(TRIM(channel_name)) AS channel_name,
+    LOWER(TRIM(channel_category)) AS channel_category,
+    LOWER(TRIM(traffic_type)) AS traffic_type
+    
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_channels`
+    );
+  
+[0m17:31:01.660915 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.stg_products (execute): 17:30:56.134866 => 17:31:01.660085
+[0m17:31:01.664592 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E81000CEC0>]}
+[0m17:31:01.666790 [info ] [Thread-2 (]: 6 of 19 OK created sql view model ecommerce_data.stg_products .................. [[32mCREATE VIEW (0 processed)[0m in 5.55s]
+[0m17:31:01.682692 [debug] [Thread-2 (]: Finished running node model.operations_dashboard.stg_products
+[0m17:31:01.689412 [debug] [Thread-2 (]: Began running node model.operations_dashboard.dim_products
+[0m17:31:01.691358 [info ] [Thread-2 (]: 9 of 19 START sql table model ecommerce_data.dim_products ...................... [RUN]
+[0m17:31:01.695537 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.stg_products, now model.operations_dashboard.dim_products)
+[0m17:31:01.696754 [debug] [Thread-2 (]: Began compiling node model.operations_dashboard.dim_products
+[0m17:31:01.723895 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.stg_marketing (execute): 17:30:56.054953 => 17:31:01.723215
+[0m17:31:01.727948 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F919BB0>]}
+[0m17:31:01.734231 [debug] [Thread-2 (]: Writing injected SQL for node "model.operations_dashboard.dim_products"
+[0m17:31:01.748834 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.dim_products (compile): 17:31:01.697479 => 17:31:01.744947
+[0m17:31:01.751541 [debug] [Thread-2 (]: Began executing node model.operations_dashboard.dim_products
+[0m17:31:01.765004 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m17:31:01.729850 [info ] [Thread-4 (]: 5 of 19 OK created sql view model ecommerce_data.stg_marketing ................. [[32mCREATE VIEW (0 processed)[0m in 5.71s]
+[0m17:31:01.780450 [debug] [Thread-4 (]: Finished running node model.operations_dashboard.stg_marketing
+[0m17:31:02.223310 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.stg_sales (execute): 17:30:56.199373 => 17:31:02.222629
+[0m17:31:02.226649 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F9E61B0>]}
+[0m17:31:02.228709 [info ] [Thread-3 (]: 7 of 19 OK created sql view model ecommerce_data.stg_sales ..................... [[32mCREATE VIEW (0 processed)[0m in 6.07s]
+[0m17:31:02.245346 [debug] [Thread-3 (]: Finished running node model.operations_dashboard.stg_sales
+[0m17:31:02.257283 [debug] [Thread-4 (]: Began running node model.operations_dashboard.dim_customers
+[0m17:31:02.259064 [info ] [Thread-4 (]: 10 of 19 START sql table model ecommerce_data.dim_customers .................... [RUN]
+[0m17:31:02.276838 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.stg_marketing, now model.operations_dashboard.dim_customers)
+[0m17:31:02.277914 [debug] [Thread-4 (]: Began compiling node model.operations_dashboard.dim_customers
+[0m17:31:02.292609 [debug] [Thread-4 (]: Writing injected SQL for node "model.operations_dashboard.dim_customers"
+[0m17:31:02.296145 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.dim_customers (compile): 17:31:02.278556 => 17:31:02.295376
+[0m17:31:02.297631 [debug] [Thread-4 (]: Began executing node model.operations_dashboard.dim_customers
+[0m17:31:02.314374 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m17:31:03.359033 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:ddd40033-9d7c-4ca0-bb60-2548ecb2d2ca&page=queryresults
+[0m17:31:04.316389 [debug] [Thread-2 (]: Writing runtime sql for node "model.operations_dashboard.dim_products"
+[0m17:31:04.319724 [debug] [Thread-2 (]: On model.operations_dashboard.dim_products: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.dim_products"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_products`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      SELECT
+to_hex(md5(cast(coalesce(cast(product_id as string), '_dbt_utils_surrogate_key_null_') as string))) AS product_key,
+    product_id,
+    LOWER(TRIM(product_name)) AS product_name,
+    price,
+    unit_cost,
+    LOWER(TRIM(sub_category)) AS sub_category,
+    LOWER(TRIM(category)) AS category,
+    LOWER(TRIM(brand)) AS brand,
+    supplier_id,
+
+    -------------------------------------------------
+    -- BUSINESS DERIVED METRICS
+    -------------------------------------------------
+    (price - unit_cost) AS unit_margin
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_products`
+    );
+  
+[0m17:31:04.500721 [debug] [Thread-4 (]: Writing runtime sql for node "model.operations_dashboard.dim_customers"
+[0m17:31:04.503961 [debug] [Thread-4 (]: On model.operations_dashboard.dim_customers: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.dim_customers"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_customers`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+WITH customer_orders AS (
+
+    SELECT
+
+        customer_id,
+
+        MIN(DATE(order_date)) AS first_purchase_date,
+
+        MAX(DATE(order_date)) AS latest_purchase_date,
+
+        COUNT(DISTINCT order_id) AS lifetime_orders,
+
+        SUM(revenue) AS lifetime_revenue
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_sales`
+
+    GROUP BY customer_id
+
+)
+
+SELECT
+
+    --------------------------------------------------
+    -- SURROGATE KEY
+    --------------------------------------------------
+
+    to_hex(md5(cast(coalesce(cast(customers.customer_id as string), '_dbt_utils_surrogate_key_null_') as string))) AS customer_key,
+
+    --------------------------------------------------
+    -- BUSINESS KEY
+    --------------------------------------------------
+
+    customers.customer_id,
+
+    --------------------------------------------------
+    -- DEMOGRAPHICS
+    --------------------------------------------------
+
+    LOWER(TRIM(customers.gender)) AS gender,
+
+    customers.age,
+
+    CASE
+
+        WHEN customers.age < 18 THEN 'Under 18'
+
+        WHEN customers.age BETWEEN 18 AND 24 THEN '18-24'
+
+        WHEN customers.age BETWEEN 25 AND 34 THEN '25-34'
+
+        WHEN customers.age BETWEEN 35 AND 44 THEN '35-44'
+
+        WHEN customers.age BETWEEN 45 AND 54 THEN '45-54'
+
+        ELSE '55+'
+
+    END AS age_band,
+
+    LOWER(TRIM(customers.country)) AS country,
+
+    LOWER(TRIM(customers.region)) AS region,
+
+    LOWER(TRIM(customers.city)) AS city,
+
+    --------------------------------------------------
+    -- ACQUISITION ATTRIBUTES
+    --------------------------------------------------
+
+    customers.acquisition_date,
+
+    LOWER(TRIM(customers.acquisition_channel))
+        AS acquisition_channel,
+
+    LOWER(TRIM(customers.acquisition_campaign))
+        AS acquisition_campaign,
+
+    --------------------------------------------------
+    -- CUSTOMER LIFECYCLE
+    --------------------------------------------------
+
+    customer_orders.first_purchase_date,
+
+    customer_orders.latest_purchase_date,
+
+    customer_orders.lifetime_orders,
+
+    customer_orders.lifetime_revenue,
+
+    --------------------------------------------------
+    -- CUSTOMER STATUS
+    --------------------------------------------------
+
+    CASE
+
+        WHEN customer_orders.lifetime_orders IS NULL
+            THEN 'prospect'
+
+        WHEN customer_orders.lifetime_orders = 1
+            THEN 'new'
+
+        ELSE 'returning'
+
+    END AS customer_status,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP() AS loaded_at
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_customers` AS customers
+
+LEFT JOIN customer_orders
+
+    ON customers.customer_id = customer_orders.customer_id
+    );
+  
+[0m17:31:05.343777 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:79efe5d7-d7ed-4a92-9f8e-f014ec69e6e7&page=queryresults
+[0m17:31:05.488046 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:60072ba4-4339-4800-9bc6-7eec13eac6df&page=queryresults
+[0m17:31:05.495470 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.dim_channels (execute): 17:30:57.738424 => 17:31:05.494885
+[0m17:31:05.499219 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F1535F0>]}
+[0m17:31:05.500666 [info ] [Thread-1 (]: 8 of 19 OK created sql table model ecommerce_data.dim_channels ................. [[32mCREATE TABLE (14.0 rows, 454.0 Bytes processed)[0m in 8.08s]
+[0m17:31:05.506933 [debug] [Thread-1 (]: Finished running node model.operations_dashboard.dim_channels
+[0m17:31:05.508691 [debug] [Thread-3 (]: Began running node model.operations_dashboard.dim_campaigns
+[0m17:31:05.510048 [info ] [Thread-3 (]: 11 of 19 START sql table model ecommerce_data.dim_campaigns .................... [RUN]
+[0m17:31:05.512326 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.stg_sales, now model.operations_dashboard.dim_campaigns)
+[0m17:31:05.513552 [debug] [Thread-3 (]: Began compiling node model.operations_dashboard.dim_campaigns
+[0m17:31:05.535957 [debug] [Thread-3 (]: Writing injected SQL for node "model.operations_dashboard.dim_campaigns"
+[0m17:31:05.542914 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.dim_campaigns (compile): 17:31:05.514371 => 17:31:05.541388
+[0m17:31:05.545262 [debug] [Thread-3 (]: Began executing node model.operations_dashboard.dim_campaigns
+[0m17:31:05.555084 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m17:31:07.433591 [debug] [Thread-3 (]: Writing runtime sql for node "model.operations_dashboard.dim_campaigns"
+[0m17:31:07.436218 [debug] [Thread-3 (]: On model.operations_dashboard.dim_campaigns: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.dim_campaigns"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_campaigns`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+WITH channel_dimension AS (
+
+    SELECT
+        channel_key,
+        channel_name
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels`
+
+)
+
+SELECT
+
+    --------------------------------------------------
+    -- SURROGATE KEY
+    --------------------------------------------------
+
+    to_hex(md5(cast(coalesce(cast(campaign_id as string), '_dbt_utils_surrogate_key_null_') as string))) AS campaign_key,
+
+    --------------------------------------------------
+    -- BUSINESS KEY
+    --------------------------------------------------
+
+    campaign_id,
+
+    --------------------------------------------------
+    -- DIMENSION KEYS
+    --------------------------------------------------
+
+    channel_dimension.channel_key,
+
+    --------------------------------------------------
+    -- CAMPAIGN ATTRIBUTES
+    --------------------------------------------------
+
+    LOWER(TRIM(campaign_name))
+        AS campaign_name,
+
+    LOWER(TRIM(campaign_type))
+        AS campaign_type,
+
+    LOWER(TRIM(campaign_objective))
+        AS campaign_objective,
+
+    start_date,
+
+    end_date,
+
+    budget,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+        AS loaded_at
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_campaigns` AS campaigns
+
+LEFT JOIN channel_dimension
+
+    ON LOWER(TRIM(campaigns.channel))
+       = channel_dimension.channel_name
+    );
+  
+[0m17:31:08.398678 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:d46d2734-497a-4761-b6ef-6fa979d4d1ba&page=queryresults
+[0m17:31:09.018785 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.dim_products (execute): 17:31:01.756458 => 17:31:09.018115
+[0m17:31:09.020758 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F9E6E70>]}
+[0m17:31:09.022239 [info ] [Thread-2 (]: 9 of 19 OK created sql table model ecommerce_data.dim_products ................. [[32mCREATE TABLE (1.0k rows, 72.0 KiB processed)[0m in 7.33s]
+[0m17:31:09.023895 [debug] [Thread-2 (]: Finished running node model.operations_dashboard.dim_products
+[0m17:31:10.378890 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.dim_customers (execute): 17:31:02.298500 => 17:31:10.378233
+[0m17:31:10.381182 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F9E77D0>]}
+[0m17:31:10.382706 [info ] [Thread-4 (]: 10 of 19 OK created sql table model ecommerce_data.dim_customers ............... [[32mCREATE TABLE (23.8k rows, 9.1 MiB processed)[0m in 8.10s]
+[0m17:31:10.384455 [debug] [Thread-4 (]: Finished running node model.operations_dashboard.dim_customers
+[0m17:31:11.277060 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.dim_campaigns (execute): 17:31:05.546970 => 17:31:11.276373
+[0m17:31:11.279086 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F9E7A70>]}
+[0m17:31:11.280540 [info ] [Thread-3 (]: 11 of 19 OK created sql table model ecommerce_data.dim_campaigns ............... [[32mCREATE TABLE (66.0 rows, 7.0 KiB processed)[0m in 5.77s]
+[0m17:31:11.282213 [debug] [Thread-3 (]: Finished running node model.operations_dashboard.dim_campaigns
+[0m17:31:11.283692 [debug] [Thread-2 (]: Began running node model.operations_dashboard.fact_sales
+[0m17:31:11.286971 [debug] [Thread-1 (]: Began running node model.operations_dashboard.fact_marketing
+[0m17:31:11.285504 [info ] [Thread-2 (]: 13 of 19 START sql table model ecommerce_data.fact_sales ....................... [RUN]
+[0m17:31:11.293971 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.dim_products, now model.operations_dashboard.fact_sales)
+[0m17:31:11.294959 [debug] [Thread-2 (]: Began compiling node model.operations_dashboard.fact_sales
+[0m17:31:11.290399 [info ] [Thread-1 (]: 12 of 19 START sql table model ecommerce_data.fact_marketing ................... [RUN]
+[0m17:31:11.307762 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.dim_channels, now model.operations_dashboard.fact_marketing)
+[0m17:31:11.310211 [debug] [Thread-1 (]: Began compiling node model.operations_dashboard.fact_marketing
+[0m17:31:11.325798 [debug] [Thread-1 (]: Writing injected SQL for node "model.operations_dashboard.fact_marketing"
+[0m17:31:11.360752 [debug] [Thread-2 (]: Writing injected SQL for node "model.operations_dashboard.fact_sales"
+[0m17:31:11.362319 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.fact_marketing (compile): 17:31:11.311108 => 17:31:11.361675
+[0m17:31:11.363502 [debug] [Thread-1 (]: Began executing node model.operations_dashboard.fact_marketing
+[0m17:31:11.369317 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:31:11.372959 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.fact_sales (compile): 17:31:11.295667 => 17:31:11.371605
+[0m17:31:11.374044 [debug] [Thread-2 (]: Began executing node model.operations_dashboard.fact_sales
+[0m17:31:11.380229 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m17:31:13.389453 [debug] [Thread-2 (]: Writing runtime sql for node "model.operations_dashboard.fact_sales"
+[0m17:31:13.394145 [debug] [Thread-1 (]: Writing runtime sql for node "model.operations_dashboard.fact_marketing"
+[0m17:31:13.400987 [debug] [Thread-2 (]: On model.operations_dashboard.fact_sales: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.fact_sales"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_sales`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+WITH sales AS (
+
+    SELECT *
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_sales`
+
+),
+
+date_dimension AS (
+
+    SELECT
+        date_key
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_date`
+
+),
+
+customer_dimension AS (
+
+    SELECT
+        customer_key,
+        customer_id
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_customers`
+
+),
+
+product_dimension AS (
+
+    SELECT
+        product_key,
+        product_id
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_products`
+
+),
+
+channel_dimension AS (
+
+    SELECT
+        channel_key,
+        channel_name
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels`
+
+),
+
+campaign_dimension AS (
+
+    SELECT
+        campaign_key,
+        campaign_id
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_campaigns`
+
+)
+
+SELECT
+
+    --------------------------------------------------
+    -- FACT SURROGATE KEY
+    --------------------------------------------------
+
+    to_hex(md5(cast(coalesce(cast(sales.order_id as string), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(sales.product_id as string), '_dbt_utils_surrogate_key_null_') as string))) AS sales_key,
+
+    --------------------------------------------------
+    -- BUSINESS IDENTIFIER
+    --------------------------------------------------
+
+    sales.order_id,
+
+    --------------------------------------------------
+    -- STAR SCHEMA KEYS
+    --------------------------------------------------
+
+    date_dimension.date_key,
+
+    customer_dimension.customer_key,
+
+    product_dimension.product_key,
+
+    channel_dimension.channel_key,
+
+    campaign_dimension.campaign_key,
+
+    --------------------------------------------------
+    -- TRANSACTION ATTRIBUTES
+    --------------------------------------------------
+
+    sales.ship_mode,
+
+    LOWER(TRIM(sales.refund_status))
+        AS refund_status,
+
+    sales.customer_status,
+
+    --------------------------------------------------
+    -- SALES MEASURES
+    --------------------------------------------------
+
+    sales.quantity,
+
+    sales.price,
+
+    sales.unit_cost,
+
+    sales.discount,
+
+    sales.revenue AS net_sales,
+
+    --------------------------------------------------
+    -- ROW-LEVEL FINANCIAL METRICS
+    --------------------------------------------------
+
+    sales.quantity * sales.price
+        AS gross_sales,
+
+    sales.quantity * sales.unit_cost
+        AS total_cost,
+
+    sales.quantity
+        * sales.price
+        * sales.discount
+        AS discount_amount,
+
+    sales.revenue
+        - (sales.quantity * sales.unit_cost)
+        AS gross_profit,
+
+    sales.price
+        - sales.unit_cost
+        AS unit_margin,
+
+    --------------------------------------------------
+    -- FLAGS
+    --------------------------------------------------
+
+    LOWER(TRIM(sales.refund_status)) = 'refunded'
+        AS is_refunded,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+        AS loaded_at
+
+FROM sales
+
+JOIN date_dimension
+
+    ON DATE(sales.order_date)
+       = date_dimension.date_key
+
+JOIN customer_dimension
+
+    ON sales.customer_id
+       = customer_dimension.customer_id
+
+JOIN product_dimension
+
+    ON sales.product_id
+       = product_dimension.product_id
+
+LEFT JOIN channel_dimension
+
+    ON LOWER(TRIM(sales.channel))
+       = channel_dimension.channel_name
+
+LEFT JOIN campaign_dimension
+
+    ON sales.campaign_id
+       = campaign_dimension.campaign_id
+    );
+  
+[0m17:31:13.404059 [debug] [Thread-1 (]: On model.operations_dashboard.fact_marketing: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.fact_marketing"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_marketing`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+WITH marketing AS (
+
+    SELECT *
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`stg_marketing`
+
+),
+
+date_dimension AS (
+
+    SELECT
+        date_key
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_date`
+
+),
+
+campaign_dimension AS (
+
+    SELECT
+        campaign_key,
+        campaign_id,
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_campaigns`
+
+),
+
+channel_dimension AS (
+
+    SELECT
+        channel_key,
+        channel_name
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels`
+
+)
+
+SELECT
+
+    --------------------------------------------------
+    -- FACT SURROGATE KEY
+    --------------------------------------------------
+
+    to_hex(md5(cast(coalesce(cast(marketing.ads_id as string), '_dbt_utils_surrogate_key_null_') as string))) AS marketing_key,
+
+    --------------------------------------------------
+    -- FOREIGN KEYS
+    --------------------------------------------------
+
+    date_dimension.date_key,
+
+    campaign_dimension.campaign_key,
+
+    channel_dimension.channel_key,
+
+    --------------------------------------------------
+    -- BUSINESS IDENTIFIER
+    --------------------------------------------------
+
+    marketing.ads_id,
+
+    --------------------------------------------------
+    -- MARKETING METRICS
+    --------------------------------------------------
+
+    marketing.ad_spend,
+
+    marketing.impressions,
+
+    marketing.clicks,
+
+    marketing.conversions,
+
+    marketing.campaign_objective,
+
+    --------------------------------------------------
+    -- DERIVED METRICS
+    --------------------------------------------------
+
+    SAFE_DIVIDE(
+        marketing.clicks,
+        marketing.impressions
+    ) AS click_through_rate,
+
+    SAFE_DIVIDE(
+        marketing.conversions,
+        marketing.clicks
+    ) AS conversion_rate,
+
+    SAFE_DIVIDE(
+        marketing.ad_spend,
+        marketing.clicks
+    ) AS cost_per_click,
+
+    SAFE_DIVIDE(
+        marketing.ad_spend,
+        marketing.impressions
+    ) * 1000 AS cost_per_thousand_impressions,
+
+    SAFE_DIVIDE(
+        marketing.ad_spend,
+        marketing.conversions
+    ) AS cost_per_conversion,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP() AS loaded_at
+
+FROM marketing
+
+JOIN date_dimension
+
+    ON marketing.date = date_dimension.date_key
+
+JOIN campaign_dimension
+
+    ON marketing.campaign_id = campaign_dimension.campaign_id
+
+JOIN channel_dimension
+
+    ON LOWER(TRIM(marketing.channel_name))
+       = channel_dimension.channel_name
+    );
+  
+[0m17:31:14.448228 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:77cc5bac-70c4-415e-99d0-bafa80a7a863&page=queryresults
+[0m17:31:14.593644 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:b42095aa-3167-4902-8279-e63ae94bd156&page=queryresults
+[0m17:31:18.155970 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.fact_marketing (execute): 17:31:11.364200 => 17:31:18.155347
+[0m17:31:18.158037 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F834410>]}
+[0m17:31:18.159559 [info ] [Thread-1 (]: 12 of 19 OK created sql table model ecommerce_data.fact_marketing .............. [[32mCREATE TABLE (3.3k rows, 331.6 KiB processed)[0m in 6.85s]
+[0m17:31:18.161486 [debug] [Thread-1 (]: Finished running node model.operations_dashboard.fact_marketing
+[0m17:31:18.163284 [debug] [Thread-4 (]: Began running node model.operations_dashboard.agg_channel_funnel_daily
+[0m17:31:18.164588 [info ] [Thread-4 (]: 14 of 19 START sql table model ecommerce_data.agg_channel_funnel_daily ......... [RUN]
+[0m17:31:18.166854 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.dim_customers, now model.operations_dashboard.agg_channel_funnel_daily)
+[0m17:31:18.168251 [debug] [Thread-4 (]: Began compiling node model.operations_dashboard.agg_channel_funnel_daily
+[0m17:31:18.175368 [debug] [Thread-4 (]: Writing injected SQL for node "model.operations_dashboard.agg_channel_funnel_daily"
+[0m17:31:18.179492 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.agg_channel_funnel_daily (compile): 17:31:18.168794 => 17:31:18.178744
+[0m17:31:18.180695 [debug] [Thread-4 (]: Began executing node model.operations_dashboard.agg_channel_funnel_daily
+[0m17:31:18.189550 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m17:31:19.935202 [debug] [Thread-4 (]: Writing runtime sql for node "model.operations_dashboard.agg_channel_funnel_daily"
+[0m17:31:19.939418 [debug] [Thread-4 (]: On model.operations_dashboard.agg_channel_funnel_daily: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.agg_channel_funnel_daily"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`agg_channel_funnel_daily`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+--------------------------------------------------
+-- DAILY CHANNEL FUNNEL
+--------------------------------------------------
+
+SELECT
+
+    --------------------------------------------------
+    -- REPORTING GRAIN
+    --------------------------------------------------
+
+    fact_marketing.date_key,
+
+    --------------------------------------------------
+    -- CHANNEL
+    --------------------------------------------------
+
+    dim_channels.channel_name,
+
+    dim_channels.channel_category,
+
+    dim_channels.traffic_type,
+
+    --------------------------------------------------
+    -- MARKETING ACTIVITY
+    --------------------------------------------------
+
+    SUM(fact_marketing.ad_spend)
+        AS total_ad_spend,
+
+    SUM(fact_marketing.impressions)
+        AS total_impressions,
+
+    SUM(fact_marketing.clicks)
+        AS total_clicks,
+
+    SUM(fact_marketing.conversions)
+        AS total_conversions,
+
+    
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+
+        AS loaded_at
+
+FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_marketing` fact_marketing
+
+JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels` dim_channels
+
+    ON fact_marketing.channel_key =
+       dim_channels.channel_key
+
+GROUP BY
+
+    fact_marketing.date_key,
+
+    dim_channels.channel_name,
+
+    dim_channels.channel_category,
+
+    dim_channels.traffic_type
+    );
+  
+[0m17:31:20.890952 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:a1f03618-40e7-4270-8c1f-d41b3af102f3&page=queryresults
+[0m17:31:21.271123 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.fact_sales (execute): 17:31:11.375467 => 17:31:21.270511
+[0m17:31:21.272888 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F431C10>]}
+[0m17:31:21.274019 [info ] [Thread-2 (]: 13 of 19 OK created sql table model ecommerce_data.fact_sales .................. [[32mCREATE TABLE (226.8k rows, 26.9 MiB processed)[0m in 9.98s]
+[0m17:31:21.275532 [debug] [Thread-2 (]: Finished running node model.operations_dashboard.fact_sales
+[0m17:31:21.277041 [debug] [Thread-3 (]: Began running node model.operations_dashboard.agg_campaign_performance
+[0m17:31:21.278031 [debug] [Thread-2 (]: Began running node model.operations_dashboard.agg_customer_cohort
+[0m17:31:21.278902 [debug] [Thread-1 (]: Began running node model.operations_dashboard.agg_channel_performance
+[0m17:31:21.280085 [info ] [Thread-3 (]: 15 of 19 START sql table model ecommerce_data.agg_campaign_performance ......... [RUN]
+[0m17:31:21.284630 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.dim_campaigns, now model.operations_dashboard.agg_campaign_performance)
+[0m17:31:21.281039 [info ] [Thread-2 (]: 17 of 19 START sql table model ecommerce_data.agg_customer_cohort .............. [RUN]
+[0m17:31:21.286091 [debug] [Thread-3 (]: Began compiling node model.operations_dashboard.agg_campaign_performance
+[0m17:31:21.282126 [info ] [Thread-1 (]: 16 of 19 START sql table model ecommerce_data.agg_channel_performance .......... [RUN]
+[0m17:31:21.288844 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.fact_sales, now model.operations_dashboard.agg_customer_cohort)
+[0m17:31:21.305180 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.fact_marketing, now model.operations_dashboard.agg_channel_performance)
+[0m17:31:21.305824 [debug] [Thread-3 (]: Writing injected SQL for node "model.operations_dashboard.agg_campaign_performance"
+[0m17:31:21.306794 [debug] [Thread-2 (]: Began compiling node model.operations_dashboard.agg_customer_cohort
+[0m17:31:21.307702 [debug] [Thread-1 (]: Began compiling node model.operations_dashboard.agg_channel_performance
+[0m17:31:21.323781 [debug] [Thread-2 (]: Writing injected SQL for node "model.operations_dashboard.agg_customer_cohort"
+[0m17:31:21.337818 [debug] [Thread-1 (]: Writing injected SQL for node "model.operations_dashboard.agg_channel_performance"
+[0m17:31:21.339547 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.agg_customer_cohort (compile): 17:31:21.311916 => 17:31:21.338855
+[0m17:31:21.340719 [debug] [Thread-2 (]: Began executing node model.operations_dashboard.agg_customer_cohort
+[0m17:31:21.346918 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m17:31:21.348352 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.agg_campaign_performance (compile): 17:31:21.291549 => 17:31:21.347655
+[0m17:31:21.356491 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.agg_channel_performance (compile): 17:31:21.324699 => 17:31:21.355801
+[0m17:31:21.357465 [debug] [Thread-3 (]: Began executing node model.operations_dashboard.agg_campaign_performance
+[0m17:31:21.358545 [debug] [Thread-1 (]: Began executing node model.operations_dashboard.agg_channel_performance
+[0m17:31:21.363536 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m17:31:21.368461 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:31:23.573319 [debug] [Thread-3 (]: Writing runtime sql for node "model.operations_dashboard.agg_campaign_performance"
+[0m17:31:23.575760 [debug] [Thread-3 (]: On model.operations_dashboard.agg_campaign_performance: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.agg_campaign_performance"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`agg_campaign_performance`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+--------------------------------------------------
+-- SALES SUMMARY
+--------------------------------------------------
+
+WITH sales_summary AS (
+
+    SELECT
+
+        DATE_TRUNC(fs.date_key, MONTH)
+            AS report_month,
+
+        fs.campaign_key,
+
+        fs.channel_key,
+
+        dc.region,
+
+        --------------------------------------------------
+        -- SALES FACTS
+        --------------------------------------------------
+
+        COUNT(DISTINCT fs.order_id)
+            AS total_orders,
+
+        COUNT(DISTINCT fs.customer_key)
+            AS total_customers,
+
+        COUNT(
+            DISTINCT CASE
+
+                WHEN DATE_TRUNC(dc.first_purchase_date, MONTH)
+                     = DATE_TRUNC(fs.date_key, MONTH)
+
+                THEN fs.customer_key
+
+            END
+
+        ) AS new_customers,
+
+        SUM(fs.net_sales)
+            AS total_revenue,
+
+        SUM(fs.gross_profit)
+            AS gross_profit
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_sales` fs
+
+    INNER JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_customers` dc
+
+        ON fs.customer_key =
+           dc.customer_key
+
+    GROUP BY
+
+        report_month,
+
+        fs.campaign_key,
+
+        fs.channel_key,
+
+        dc.region
+
+),
+
+--------------------------------------------------
+-- MARKETING SUMMARY
+--------------------------------------------------
+
+marketing_summary AS (
+
+    SELECT
+
+        DATE_TRUNC(date_key, MONTH)
+            AS report_month,
+
+        campaign_key,
+
+        channel_key,
+
+        --------------------------------------------------
+        -- MARKETING FACTS
+        --------------------------------------------------
+
+        SUM(ad_spend)
+            AS total_ad_spend,
+
+        SUM(
+
+            CASE
+
+                WHEN campaign_objective = 'acquisition'
+
+                THEN ad_spend
+
+                ELSE 0
+
+            END
+
+        ) AS acquisition_cost,
+
+        SUM(impressions)
+            AS impressions,
+
+        SUM(clicks)
+            AS clicks,
+
+        SUM(conversions)
+            AS conversions
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_marketing`
+
+    GROUP BY
+
+        report_month,
+
+        campaign_key,
+
+        channel_key
+
+)
+
+--------------------------------------------------
+-- FINAL CAMPAIGN PERFORMANCE
+--------------------------------------------------
+
+SELECT
+
+    --------------------------------------------------
+    -- REPORTING DIMENSIONS
+    --------------------------------------------------
+
+    ss.report_month,
+
+    dcmp.campaign_id,
+
+    dcmp.campaign_name,
+
+    dcmp.campaign_type,
+
+    dch.channel_name,
+
+    ss.region,
+
+    --------------------------------------------------
+    -- SALES FACTS
+    --------------------------------------------------
+
+    ss.total_orders,
+
+    ss.total_customers,
+
+    ss.new_customers,
+
+    ss.total_revenue,
+
+    ss.gross_profit,
+
+    --------------------------------------------------
+    -- MARKETING FACTS
+    --------------------------------------------------
+
+    COALESCE(
+        ms.total_ad_spend,
+        0
+    ) AS total_ad_spend,
+
+    COALESCE(
+        ms.acquisition_cost,
+        0
+    ) AS acquisition_cost,
+
+    COALESCE(
+        ms.impressions,
+        0
+    ) AS impressions,
+
+    COALESCE(
+        ms.clicks,
+        0
+    ) AS clicks,
+
+    COALESCE(
+        ms.conversions,
+        0
+    ) AS conversions,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+        AS loaded_at
+
+FROM sales_summary ss
+
+LEFT JOIN marketing_summary ms
+
+    ON ss.report_month =
+       ms.report_month
+
+   AND ss.campaign_key =
+       ms.campaign_key
+
+   AND ss.channel_key =
+       ms.channel_key
+
+INNER JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_campaigns` dcmp
+
+    ON ss.campaign_key =
+       dcmp.campaign_key
+
+INNER JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels` dch
+
+    ON ss.channel_key =
+       dch.channel_key
+    );
+  
+[0m17:31:24.132219 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.agg_channel_funnel_daily (execute): 17:31:18.181388 => 17:31:24.131554
+[0m17:31:24.134189 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F1F06B0>]}
+[0m17:31:24.135677 [info ] [Thread-4 (]: 14 of 19 OK created sql table model ecommerce_data.agg_channel_funnel_daily .... [[32mCREATE TABLE (2.7k rows, 262.3 KiB processed)[0m in 5.97s]
+[0m17:31:24.137438 [debug] [Thread-4 (]: Finished running node model.operations_dashboard.agg_channel_funnel_daily
+[0m17:31:24.138697 [debug] [Thread-4 (]: Began running node model.operations_dashboard.agg_customer_segment
+[0m17:31:24.140036 [info ] [Thread-4 (]: 18 of 19 START sql table model ecommerce_data.agg_customer_segment ............. [RUN]
+[0m17:31:24.142395 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.agg_channel_funnel_daily, now model.operations_dashboard.agg_customer_segment)
+[0m17:31:24.143756 [debug] [Thread-4 (]: Began compiling node model.operations_dashboard.agg_customer_segment
+[0m17:31:24.154320 [debug] [Thread-4 (]: Writing injected SQL for node "model.operations_dashboard.agg_customer_segment"
+[0m17:31:24.157468 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.agg_customer_segment (compile): 17:31:24.144514 => 17:31:24.156800
+[0m17:31:24.158714 [debug] [Thread-4 (]: Began executing node model.operations_dashboard.agg_customer_segment
+[0m17:31:24.165003 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m17:31:24.953386 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:23557d7c-048b-44ba-aaf0-d42fbcb00d16&page=queryresults
+[0m17:31:33.511435 [debug] [Thread-4 (]: Writing runtime sql for node "model.operations_dashboard.agg_customer_segment"
+[0m17:31:33.521377 [debug] [Thread-4 (]: On model.operations_dashboard.agg_customer_segment: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.agg_customer_segment"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`agg_customer_segment`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+--------------------------------------------------
+-- CUSTOMER MONTHLY SUMMARY
+--------------------------------------------------
+
+WITH customer_summary AS (
+
+    SELECT
+
+        --------------------------------------------------
+        -- REPORTING PERIOD
+        --------------------------------------------------
+
+        DATE_TRUNC(fs.date_key, MONTH)
+            AS report_month,
+
+        --------------------------------------------------
+        -- CUSTOMER
+        --------------------------------------------------
+
+        dc.customer_key,
+
+        dc.region,
+
+        dc.gender,
+
+        dc.age_band,
+
+        dc.customer_status,
+
+        --------------------------------------------------
+        -- LIFETIME / MONTHLY METRICS
+        --------------------------------------------------
+
+        COUNT(DISTINCT fs.order_id)
+            AS total_orders,
+
+        SUM(fs.net_sales)
+            AS total_revenue
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_sales` fs
+
+    INNER JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_customers` dc
+
+        ON fs.customer_key = dc.customer_key
+
+    GROUP BY
+
+        report_month,
+
+        dc.customer_key,
+
+        dc.region,
+
+        dc.gender,
+
+        dc.age_band,
+
+        dc.customer_status
+
+),
+
+--------------------------------------------------
+-- SEGMENT SUMMARY
+--------------------------------------------------
+
+segment_summary AS (
+
+    SELECT
+
+        --------------------------------------------------
+        -- REPORTING PERIOD
+        --------------------------------------------------
+
+        report_month,
+
+        --------------------------------------------------
+        -- SEGMENT
+        --------------------------------------------------
+
+        region,
+
+        gender,
+
+        age_band,
+
+        customer_status,
+
+        --------------------------------------------------
+        -- CUSTOMER COUNTS
+        --------------------------------------------------
+
+        COUNT(*) AS total_customers,
+
+        COUNTIF(total_orders > 1)
+            AS repeat_customers,
+
+        --------------------------------------------------
+        -- SALES
+        --------------------------------------------------
+
+        SUM(total_orders)
+            AS total_orders,
+
+        SUM(total_revenue)
+            AS total_revenue
+
+    FROM customer_summary
+
+    GROUP BY
+
+        report_month,
+
+        region,
+
+        gender,
+
+        age_band,
+
+        customer_status
+
+)
+
+--------------------------------------------------
+-- FINAL TABLE
+--------------------------------------------------
+
+SELECT
+
+    --------------------------------------------------
+    -- REPORT MONTH
+    --------------------------------------------------
+
+    report_month,
+
+    --------------------------------------------------
+    -- CUSTOMER SEGMENT
+    --------------------------------------------------
+
+    region,
+
+    gender,
+
+    age_band,
+
+    customer_status,
+
+    --------------------------------------------------
+    -- CUSTOMER COUNTS
+    --------------------------------------------------
+
+    total_customers,
+
+    repeat_customers,
+
+    --------------------------------------------------
+    -- SALES
+    --------------------------------------------------
+
+    total_orders,
+
+    total_revenue,
+
+    --------------------------------------------------
+    -- KPI
+    --------------------------------------------------
+
+    ROUND(
+
+        SAFE_DIVIDE(
+
+            repeat_customers,
+
+            total_customers
+
+        ) * 100,
+
+        2
+
+    ) AS repeat_purchase_rate,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+
+        AS loaded_at
+
+FROM segment_summary
+    );
+  
+[0m17:31:35.417463 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.agg_campaign_performance (execute): 17:31:21.359252 => 17:31:35.416861
+[0m17:31:35.418863 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:567f2a56-e7f8-44f9-8dbf-00547c1338d4&page=queryresults
+[0m17:31:35.421195 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F919CD0>]}
+[0m17:31:35.423256 [info ] [Thread-3 (]: 15 of 19 OK created sql table model ecommerce_data.agg_campaign_performance .... [[32mCREATE TABLE (549.0 rows, 34.9 MiB processed)[0m in 14.14s]
+[0m17:31:35.429032 [debug] [Thread-3 (]: Finished running node model.operations_dashboard.agg_campaign_performance
+[0m17:31:35.430117 [debug] [Thread-3 (]: Began running node model.operations_dashboard.agg_growth_daily
+[0m17:31:35.431356 [info ] [Thread-3 (]: 19 of 19 START sql table model ecommerce_data.agg_growth_daily ................. [RUN]
+[0m17:31:35.434776 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.operations_dashboard.agg_campaign_performance, now model.operations_dashboard.agg_growth_daily)
+[0m17:31:35.435994 [debug] [Thread-3 (]: Began compiling node model.operations_dashboard.agg_growth_daily
+[0m17:31:35.447570 [debug] [Thread-3 (]: Writing injected SQL for node "model.operations_dashboard.agg_growth_daily"
+[0m17:31:35.450303 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.agg_growth_daily (compile): 17:31:35.436744 => 17:31:35.449606
+[0m17:31:35.451419 [debug] [Thread-3 (]: Began executing node model.operations_dashboard.agg_growth_daily
+[0m17:31:35.458953 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m17:31:41.761725 [debug] [Thread-3 (]: Writing runtime sql for node "model.operations_dashboard.agg_growth_daily"
+[0m17:31:41.765926 [debug] [Thread-3 (]: On model.operations_dashboard.agg_growth_daily: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.agg_growth_daily"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`agg_growth_daily`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+--------------------------------------------------
+-- SALES SUMMARY
+--------------------------------------------------
+
+WITH sales_summary AS (
+
+    SELECT
+
+        fs.date_key,
+
+        fs.channel_key,
+
+        fs.campaign_key,
+
+        dc.region,
+
+        --------------------------------------------------
+        -- CUSTOMER FACTS
+        --------------------------------------------------
+
+        COUNT(DISTINCT fs.customer_key)
+            AS total_customers,
+
+        COUNT(DISTINCT CASE
+
+            WHEN dc.acquisition_date = fs.date_key
+
+            THEN fs.customer_key
+
+        END) AS new_customers,
+
+        COUNT(DISTINCT CASE
+
+            WHEN dc.acquisition_date < fs.date_key
+
+            THEN fs.customer_key
+
+        END) AS returning_customers,
+
+        --------------------------------------------------
+        -- SALES FACTS
+        --------------------------------------------------
+
+        COUNT(DISTINCT fs.order_id)
+            AS total_orders,
+
+        SUM(fs.net_sales)
+            AS total_revenue,
+
+        SUM(fs.gross_profit)
+            AS gross_profit
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_sales` fs
+
+    JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_customers` dc
+
+        ON fs.customer_key =
+           dc.customer_key
+
+    GROUP BY
+
+        fs.date_key,
+
+        fs.channel_key,
+
+        fs.campaign_key,
+
+        dc.region
+
+),
+
+--------------------------------------------------
+-- MARKETING SUMMARY
+--------------------------------------------------
+
+marketing_summary AS (
+
+    SELECT
+
+        date_key,
+
+        channel_key,
+
+        campaign_key,
+
+        --------------------------------------------------
+        -- MARKETING FACTS
+        --------------------------------------------------
+
+        SUM(ad_spend)
+            AS total_ad_spend,
+
+        SUM(
+
+            CASE
+
+                WHEN LOWER(campaign_objective)
+                    = 'acquisition'
+
+                THEN ad_spend
+
+                ELSE 0
+
+            END
+
+        ) AS acquisition_cost
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_marketing`
+
+    GROUP BY
+
+        date_key,
+
+        channel_key,
+
+        campaign_key
+
+)
+
+--------------------------------------------------
+-- FINAL TABLE
+--------------------------------------------------
+
+SELECT
+
+    --------------------------------------------------
+    -- REPORTING DIMENSIONS
+    --------------------------------------------------
+
+    ss.date_key
+        AS report_date,
+
+    dch.channel_name,
+
+    dcmp.campaign_id,
+
+    dcmp.campaign_name,
+
+    dcmp.campaign_type,
+
+    ss.region,
+
+    --------------------------------------------------
+    -- CUSTOMER FACTS
+    --------------------------------------------------
+
+    ss.total_customers,
+
+    ss.new_customers,
+
+    ss.returning_customers,
+
+    --------------------------------------------------
+    -- SALES FACTS
+    --------------------------------------------------
+
+    ss.total_orders,
+
+    ss.total_revenue,
+
+    ss.gross_profit,
+
+    --------------------------------------------------
+    -- MARKETING FACTS
+    --------------------------------------------------
+
+    COALESCE(
+
+        ms.acquisition_cost,
+
+        0
+
+    ) AS acquisition_cost,
+
+    COALESCE(
+
+        ms.total_ad_spend,
+
+        0
+
+    ) AS total_ad_spend,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+
+        AS loaded_at
+
+FROM sales_summary ss
+
+LEFT JOIN marketing_summary ms
+
+    ON ss.date_key = ms.date_key
+
+   AND ss.channel_key = ms.channel_key
+
+   AND ss.campaign_key = ms.campaign_key
+
+JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels` dch
+
+    ON ss.channel_key =
+       dch.channel_key
+
+JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_campaigns` dcmp
+
+    ON ss.campaign_key =
+       dcmp.campaign_key
+    );
+  
+[0m17:31:43.925870 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:eaee3df4-96d3-43f6-92dd-16bcbfd93ec8&page=queryresults
+[0m17:31:45.078408 [debug] [Thread-4 (]: Timing info for model.operations_dashboard.agg_customer_segment (execute): 17:31:24.159407 => 17:31:45.077650
+[0m17:31:45.082131 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8100D89B0>]}
+[0m17:31:45.083490 [info ] [Thread-4 (]: 18 of 19 OK created sql table model ecommerce_data.agg_customer_segment ........ [[32mCREATE TABLE (1.9k rows, 16.7 MiB processed)[0m in 20.94s]
+[0m17:31:45.110697 [debug] [Thread-4 (]: Finished running node model.operations_dashboard.agg_customer_segment
+[0m17:31:47.432195 [debug] [Thread-3 (]: Timing info for model.operations_dashboard.agg_growth_daily (execute): 17:31:35.453052 => 17:31:47.431610
+[0m17:31:47.435325 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8100DA1B0>]}
+[0m17:31:47.490314 [debug] [Thread-2 (]: Writing runtime sql for node "model.operations_dashboard.agg_customer_cohort"
+[0m17:31:47.493754 [debug] [Thread-1 (]: Writing runtime sql for node "model.operations_dashboard.agg_channel_performance"
+[0m17:31:47.498097 [debug] [Thread-1 (]: On model.operations_dashboard.agg_channel_performance: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.agg_channel_performance"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`agg_channel_performance`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+--------------------------------------------------
+-- SALES SUMMARY
+--------------------------------------------------
+
+WITH sales_summary AS (
+
+    SELECT
+
+        DATE_TRUNC(fact_sales.date_key, MONTH)
+            AS report_month,
+
+        fact_sales.channel_key,
+
+        COUNT(DISTINCT fact_sales.order_id)
+            AS total_orders,
+
+        COUNT(DISTINCT fact_sales.customer_key)
+            AS total_customers,
+
+        SUM(fact_sales.net_sales)
+            AS total_revenue,
+
+        SUM(fact_sales.gross_profit)
+            AS gross_profit
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_sales` fact_sales
+
+    GROUP BY
+
+        report_month,
+        fact_sales.channel_key
+
+),
+
+--------------------------------------------------
+-- MARKETING SUMMARY
+--------------------------------------------------
+
+marketing_summary AS (
+
+    SELECT
+
+        DATE_TRUNC(date_key, MONTH)
+            AS report_month,
+
+        channel_key,
+
+        SUM(ad_spend)
+            AS total_ad_spend,
+
+        SUM(impressions)
+            AS impressions,
+
+        SUM(clicks)
+            AS clicks,
+
+        SUM(conversions)
+            AS conversions
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_marketing`
+
+    GROUP BY
+
+        report_month,
+        channel_key
+
+)
+
+--------------------------------------------------
+-- FINAL CHANNEL PERFORMANCE
+--------------------------------------------------
+
+SELECT
+
+    --------------------------------------------------
+    -- REPORTING GRAIN
+    --------------------------------------------------
+
+    sales_summary.report_month,
+
+    --------------------------------------------------
+    -- CHANNEL
+    --------------------------------------------------
+
+    dim_channels.channel_name,
+
+    --------------------------------------------------
+    -- SALES
+    --------------------------------------------------
+
+    sales_summary.total_orders,
+
+    sales_summary.total_customers,
+
+    sales_summary.total_revenue,
+
+    sales_summary.gross_profit,
+
+    --------------------------------------------------
+    -- MARKETING
+    --------------------------------------------------
+
+    COALESCE(
+        marketing_summary.total_ad_spend,
+        0
+    ) AS total_ad_spend,
+
+    COALESCE(
+        marketing_summary.impressions,
+        0
+    ) AS impressions,
+
+    COALESCE(
+        marketing_summary.clicks,
+        0
+    ) AS clicks,
+
+    COALESCE(
+        marketing_summary.conversions,
+        0
+    ) AS conversions,
+
+    
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+
+        AS loaded_at
+
+FROM sales_summary
+
+LEFT JOIN marketing_summary
+
+    ON sales_summary.report_month =
+       marketing_summary.report_month
+
+    AND sales_summary.channel_key =
+        marketing_summary.channel_key
+
+JOIN `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_channels` dim_channels
+
+    ON sales_summary.channel_key =
+       dim_channels.channel_key
+    );
+  
+[0m17:31:47.499685 [debug] [Thread-2 (]: On model.operations_dashboard.agg_customer_cohort: /* {"app": "dbt", "dbt_version": "1.7.19", "profile_name": "operations_dashboard", "target_name": "dev", "node_id": "model.operations_dashboard.agg_customer_cohort"} */
+
+  
+    
+
+    create or replace table `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`agg_customer_cohort`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+
+--------------------------------------------------
+-- MAX REPORTING MONTH
+--------------------------------------------------
+
+WITH max_reporting_month AS (
+
+    SELECT
+
+        DATE_TRUNC(
+            MAX(date_key),
+            MONTH
+        ) AS latest_month
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_sales`
+
+),
+
+--------------------------------------------------
+-- MONTH INDEX (0 - 11)
+--------------------------------------------------
+
+month_index AS (
+
+    SELECT month_number
+
+    FROM UNNEST(GENERATE_ARRAY(0,11)) AS month_number
+
+),
+
+--------------------------------------------------
+-- CUSTOMER COHORTS
+--------------------------------------------------
+
+customer_cohorts AS (
+
+    SELECT
+
+        customer_key,
+
+        region,
+
+        DATE_TRUNC(
+            first_purchase_date,
+            MONTH
+        ) AS cohort_month
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`dim_customers`
+
+    WHERE first_purchase_date IS NOT NULL
+
+),
+
+--------------------------------------------------
+-- CUSTOMER MONTHLY ACTIVITY
+-- ONE ROW PER CUSTOMER PER MONTH
+--------------------------------------------------
+
+customer_monthly_activity AS (
+
+    SELECT
+
+        customer_key,
+
+        DATE_TRUNC(
+            date_key,
+            MONTH
+        ) AS activity_month
+
+    FROM `project-004c9430-f8fa-4b9a-861`.`ecommerce_data`.`fact_sales`
+
+    GROUP BY
+
+        customer_key,
+
+        activity_month
+
+),
+
+--------------------------------------------------
+-- CUSTOMER ACTIVITY
+--------------------------------------------------
+
+customer_activity AS (
+
+    SELECT
+
+        cc.customer_key,
+
+        cc.region,
+
+        cc.cohort_month,
+
+        cma.activity_month,
+
+        DATE_DIFF(
+
+            cma.activity_month,
+
+            cc.cohort_month,
+
+            MONTH
+
+        ) AS months_since_acquisition
+
+    FROM customer_cohorts cc
+
+    INNER JOIN customer_monthly_activity cma
+
+        ON cc.customer_key =
+           cma.customer_key
+
+    WHERE
+
+        cma.activity_month >= cc.cohort_month
+
+        AND DATE_DIFF(
+
+            cma.activity_month,
+
+            cc.cohort_month,
+
+            MONTH
+
+        ) BETWEEN 0 AND 11
+
+),
+
+--------------------------------------------------
+-- COHORT SIZE
+--------------------------------------------------
+
+cohort_size AS (
+
+    SELECT
+
+        cohort_month,
+
+        region,
+
+        COUNT(DISTINCT customer_key)
+            AS cohort_size
+
+    FROM customer_cohorts
+
+    GROUP BY
+
+        cohort_month,
+
+        region
+
+),
+
+--------------------------------------------------
+-- ACTIVE CUSTOMERS
+--------------------------------------------------
+
+active_customers AS (
+
+    SELECT
+
+        cohort_month,
+
+        region,
+
+        months_since_acquisition,
+
+        COUNT(DISTINCT customer_key)
+            AS active_customers
+
+    FROM customer_activity
+
+    GROUP BY
+
+        cohort_month,
+
+        region,
+
+        months_since_acquisition
+
+),
+
+--------------------------------------------------
+-- COMPLETE COHORT CALENDAR
+--------------------------------------------------
+
+cohort_calendar AS (
+
+    SELECT
+
+        cs.cohort_month,
+
+        cs.region,
+
+        mi.month_number
+            AS months_since_acquisition,
+
+        DATE_ADD(
+
+            cs.cohort_month,
+
+            INTERVAL mi.month_number MONTH
+
+        ) AS activity_month,
+
+        cs.cohort_size
+
+    FROM cohort_size cs
+
+    CROSS JOIN month_index mi
+
+    CROSS JOIN max_reporting_month rm
+
+    WHERE
+
+        DATE_ADD(
+
+            cs.cohort_month,
+
+            INTERVAL mi.month_number MONTH
+
+        ) <= rm.latest_month
+
+)
+
+--------------------------------------------------
+-- FINAL TABLE
+--------------------------------------------------
+
+SELECT
+
+    --------------------------------------------------
+    -- REPORTING DIMENSIONS
+    --------------------------------------------------
+
+    cc.cohort_month,
+
+    cc.activity_month,
+
+    cc.months_since_acquisition,
+
+    cc.region,
+
+    --------------------------------------------------
+    -- COHORT FACTS
+    --------------------------------------------------
+
+    cc.cohort_size,
+
+    COALESCE(
+
+        ac.active_customers,
+
+        0
+
+    ) AS active_customers,
+
+    --------------------------------------------------
+    -- RETENTION RATE
+    --------------------------------------------------
+
+    ROUND(
+
+        SAFE_DIVIDE(
+
+            COALESCE(
+                ac.active_customers,
+                0
+            ),
+
+            cc.cohort_size
+
+        ) * 100,
+
+        2
+
+    ) AS retention_rate,
+
+    --------------------------------------------------
+    -- AUDIT
+    --------------------------------------------------
+
+    CURRENT_TIMESTAMP()
+
+        AS loaded_at
+
+FROM cohort_calendar cc
+
+LEFT JOIN active_customers ac
+
+    ON cc.cohort_month =
+       ac.cohort_month
+
+   AND cc.region =
+       ac.region
+
+   AND cc.months_since_acquisition =
+       ac.months_since_acquisition
+
+ORDER BY
+
+    cc.cohort_month,
+
+    cc.region,
+
+    cc.months_since_acquisition
+    );
+  
+[0m17:31:47.436887 [info ] [Thread-3 (]: 19 of 19 OK created sql table model ecommerce_data.agg_growth_daily ............ [[32mCREATE TABLE (7.3k rows, 34.8 MiB processed)[0m in 12.00s]
+[0m17:31:47.523213 [debug] [Thread-3 (]: Finished running node model.operations_dashboard.agg_growth_daily
+[0m17:31:48.340998 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:2da7b5fb-c8c7-4936-9d94-6415ede32158&page=queryresults
+[0m17:31:48.471669 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=project-004c9430-f8fa-4b9a-861&j=bq:US:09f4ec42-1f7e-4a6e-bc4f-fde224a1a6b9&page=queryresults
+[0m17:31:51.534137 [debug] [Thread-1 (]: Timing info for model.operations_dashboard.agg_channel_performance (execute): 17:31:21.364382 => 17:31:51.533561
+[0m17:31:51.536192 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F91BFB0>]}
+[0m17:31:51.538198 [info ] [Thread-1 (]: 16 of 19 OK created sql table model ecommerce_data.agg_channel_performance ..... [[32mCREATE TABLE (94.0 rows, 26.2 MiB processed)[0m in 30.23s]
+[0m17:31:51.541185 [debug] [Thread-1 (]: Finished running node model.operations_dashboard.agg_channel_performance
+[0m17:31:52.107166 [debug] [Thread-2 (]: Timing info for model.operations_dashboard.agg_customer_cohort (execute): 17:31:21.341428 => 17:31:52.106562
+[0m17:31:52.108925 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b95cf1bc-afb7-4bd1-a882-682477aa8bda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F919C70>]}
+[0m17:31:52.110383 [info ] [Thread-2 (]: 17 of 19 OK created sql table model ecommerce_data.agg_customer_cohort ......... [[32mCREATE TABLE (1.1k rows, 10.2 MiB processed)[0m in 30.82s]
+[0m17:31:52.112783 [debug] [Thread-2 (]: Finished running node model.operations_dashboard.agg_customer_cohort
+[0m17:31:52.117442 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:31:52.118384 [debug] [MainThread]: Connection 'list_project-004c9430-f8fa-4b9a-861' was properly closed.
+[0m17:31:52.119633 [debug] [MainThread]: Connection 'list_project-004c9430-f8fa-4b9a-861_ecommerce_data' was properly closed.
+[0m17:31:52.120432 [debug] [MainThread]: Connection 'model.operations_dashboard.agg_channel_performance' was properly closed.
+[0m17:31:52.123043 [debug] [MainThread]: Connection 'model.operations_dashboard.agg_customer_cohort' was properly closed.
+[0m17:31:52.123975 [debug] [MainThread]: Connection 'model.operations_dashboard.agg_growth_daily' was properly closed.
+[0m17:31:52.124615 [debug] [MainThread]: Connection 'model.operations_dashboard.agg_customer_segment' was properly closed.
+[0m17:31:52.125391 [info ] [MainThread]: 
+[0m17:31:52.126337 [info ] [MainThread]: Finished running 6 view models, 13 table models in 0 hours 1 minutes and 18.01 seconds (78.01s).
+[0m17:31:52.138738 [debug] [MainThread]: Command end result
+[0m17:31:52.176990 [info ] [MainThread]: 
+[0m17:31:52.178998 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:31:52.180155 [info ] [MainThread]: 
+[0m17:31:52.181517 [info ] [MainThread]: Done. PASS=19 WARN=0 ERROR=0 SKIP=0 TOTAL=19
+[0m17:31:52.184987 [debug] [MainThread]: Command `dbt run` succeeded at 17:31:52.184634 after 82.05 seconds
+[0m17:31:52.185892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F432CF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8054AB7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80F1F06B0>]}
+[0m17:31:52.187292 [debug] [MainThread]: Flushing usage events
+[0m17:37:36.286655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192254C30E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192280A7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192280A7B10>]}
+
+
+============================== 17:37:36.307164 | 1b58b9d5-5852-4856-afb6-e6df6d8c6a6a ==============================
+[0m17:37:36.307164 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:37:36.312773 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\User\\OneDrive\\Documents\\Portfolio Projects\\GitHub\\operations_dashboard\\dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:37:41.303411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1b58b9d5-5852-4856-afb6-e6df6d8c6a6a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019231E70770>]}
+[0m17:37:41.483291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1b58b9d5-5852-4856-afb6-e6df6d8c6a6a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019231204380>]}
+[0m17:37:41.485793 [info ] [MainThread]: Registered adapter: bigquery=1.7.9
+[0m17:37:41.532028 [debug] [MainThread]: checksum: a8d43cdff37d0f32d7fbe4c5c25bea4bb6c86e162f8ce8fdb1a38cdcf7495431, vars: {}, profile: , target: , version: 1.7.19
+[0m17:37:42.075896 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:37:42.077031 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:37:42.098163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1b58b9d5-5852-4856-afb6-e6df6d8c6a6a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019231E2BD50>]}
+[0m17:37:42.136346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1b58b9d5-5852-4856-afb6-e6df6d8c6a6a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019231E6DF40>]}
+[0m17:37:42.137494 [info ] [MainThread]: Found 19 models, 8 sources, 0 exposures, 0 metrics, 570 macros, 0 groups, 0 semantic models
+[0m17:37:42.142882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1b58b9d5-5852-4856-afb6-e6df6d8c6a6a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192322E2F90>]}
+[0m17:37:42.148633 [info ] [MainThread]: 
+[0m17:37:42.152380 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:37:42.154498 [debug] [MainThread]: Command end result
+[0m17:37:42.193585 [debug] [MainThread]: Command `dbt test` succeeded at 17:37:42.193136 after 7.25 seconds
+[0m17:37:42.194665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192323F7EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192280F0290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001923232CB90>]}
+[0m17:37:42.195790 [debug] [MainThread]: Flushing usage events
